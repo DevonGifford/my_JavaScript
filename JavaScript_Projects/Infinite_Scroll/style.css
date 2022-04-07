@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@900&family=Dancing+Script:wght@500&family=Fira+Sans+Condensed:ital,wght@1,300&family=Noto+Serif:ital@1&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Noto Serif', serif;
+  background: whitesmoke;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+
+/* Loader */
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Image Container */
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Media Query: Large Smartphone Vertical */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .image-container {
+    margin: 15px;
+  }
+}
