@@ -28,4 +28,4 @@ You can view a live version ADD LINK HERE. If you would like to run this locally
 9. Go to the project folder and open the "app.js" file.
 10. Replace the value of the "apiKey" variable with your api key wraped in quotes and save.
     ![The Code to change](readme-img/code.png)
-11. Now you can run the project and see it work!
+11. Now you can run the project and see it work! 
