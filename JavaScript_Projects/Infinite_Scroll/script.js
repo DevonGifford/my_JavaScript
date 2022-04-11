@@ -4,18 +4,18 @@ const loader = document.getElementById('loader');
 let ready = false;
 let imagesLoaded = 0;
 let totalImages = 0;
+
+//Array on Images
 let photosArray = [];
 
 
-//mine 87Hbvc-ivardWNGzJm7HfIU5j3RWIV8cc249VGc8AzU
-//others  xRF2L0bh5b3lJxL8LNav1jEpXWBaSxmB5fGhs9IMe2I   dtkyZAV5zRvH10hIQ0tZ89CEuQeXWfFaQpLXEkEUYko
-
 // Unsplash API
 const count = 5;
-const topic = 'programmer'
-const apiKey = '87Hbvc-ivardWNGzJm7HfIU5j3RWIV8cc249VGc8AzU';  
-const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
-const apiUrlTest = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}&query=${topic}`
+const topic = 'programmer'  //choose the topic of photos you want to scroll through
+const apiKey = config.API_KEY;  //Insert your API key here
+console.log(apiKey);
+//const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
+const apiURL = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}&query=${topic}`
 
 // Check if all images were loaded
 function imageLoaded() {
@@ -69,7 +69,7 @@ function displayPhotos() {
 // Get photos from Unsplash API
 async function getPhotos() {
   try {
-    const response = await fetch(apiUrlTest);
+    const response = await fetch(apiURL);
     photosArray = await response.json();
     displayPhotos();
   } catch (error) {
