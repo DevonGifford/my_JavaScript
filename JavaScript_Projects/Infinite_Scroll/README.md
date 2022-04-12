@@ -11,9 +11,13 @@ A lot more could be dont to this page however this is purely an example of imple
 
 ## Live Version
 
-You can view a live version ADD LINK HERE. If you would like to run this locally, you will need an API key, which you can get for free from the steps below.
+You can view a live version NEED T0 ADD LINK HERE. 
 
-## Steps to get this project up and running locally for you:
+## Run on your machine
+
+If you would like to run this locally, you will need an API key, which you can get for free.  See the steps below 
+
+### Steps to get this project up and running locally for you:
 
 1. Go to [Unsplash's Developer Page](https://unsplash.com/documentation)
 2. Click on "Setting Up an Application"
