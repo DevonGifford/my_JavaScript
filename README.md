@@ -10,10 +10,9 @@ Currently working on the following topics
 * JavaScript Projects
 * Advanced JavaScript course 
 
+### note
 
-## note
+This repo is for the purposes of showcasing the smaller projects as well as collecting all of the exercises I have worked on while completeing the ZTM fullstack career path.
+(insert link here)
 
-This repo is for the purposes of collecting all of the Vanilla JavaScript projects and exercises I have worked on.
-
-
-## futher ...
+### List of all topics and skills
