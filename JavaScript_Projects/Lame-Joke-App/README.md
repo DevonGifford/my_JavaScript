@@ -28,8 +28,9 @@ Clone the repo
 <li>run git clone <YOUR-REPO-LINK></li>
 <code>git clone &ltyour-github-repo-link&gt</code>
 <li>Open the project folder in your favorite Code Editor.</li>
+</ul>
 
-Get your own API Key
+Get your own API Key:
 
     1. Click on 'Get API Key' on the left nav bar.
     2. Create a free account.
@@ -40,8 +41,8 @@ Get your own API Key
     <code> key: '3ec70864256548acb47fef744d284814', </code>
     (This is a fun API - feel free to use it)
 
-<li>Start the project by running <code>index.html</code></li>
-</ul>
+Finally:
+Start the project by running <code>index.html</code>
 
 ## Hashtags
 
