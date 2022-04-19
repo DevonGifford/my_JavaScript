@@ -13,7 +13,7 @@ let photosArray = [];
 const count = 5;
 const topic = 'programmer'  //choose the topic of photos you want to scroll through
 const apiKey = config.API_KEY;  //Insert your API key here
-console.log(apiKey);
+
 //const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 const apiURL = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}&query=${topic}`
 

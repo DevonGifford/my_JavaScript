@@ -27,25 +27,3 @@ button.addEventListener('click', async () => {
  
 // On Load
 selectMedia();
-
-
-
-
-/**
- * Create a method to check if video is playing
- */
-Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
-    get: function(){
-        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
-    }
-})
- 
-/**
- * If the API is sharing a stream, open picture in picture
- * Else re-prompt for stream source
- */
-button.addEventListener('click', async () => {
-    if (videoElement.playing) await videoElement.requestPictureInPicture();
-    else selectMedia();
-});
- 
