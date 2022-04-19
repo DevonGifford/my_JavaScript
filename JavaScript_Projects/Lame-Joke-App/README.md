@@ -39,7 +39,8 @@ Get your own API Key:
     - Line 26, replace 'config.MY_KEY' with your API key contained in single quotes.
 
 Alternatively use this API Key:
-<code> key: '3ec70864256548acb47fef744d284814', </code>
+<code>key: '3ec70864256548acb47fef744d284814', </code>
+
 (This is a fun API - feel free to use it)
 
 Finally:
@@ -48,7 +49,6 @@ Start the project by running <code>index.html</code>
 ## Hashtags
 
 ### Logic
-
 - \# fetch api
 - \# async function
 - \# try / catch
