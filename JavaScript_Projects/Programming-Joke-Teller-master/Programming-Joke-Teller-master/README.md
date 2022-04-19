@@ -1,13 +1,6 @@
-# Lame-Joke-App - in progress...
-
-Still in progress...
- 
-## Description
-
-Little applet that will tell you a 'safe-for-work' programming jokes.
-A random programming joke will be fetched from an open API and handed over to a TTS Api.
-
-This is great if you like 'dad-jokes' in a programming format.
+# Programming-Joke-Teller
+A Text to Voice-Based Joke Teller to Read out programming jokes to you :)<br />
+This Frontend project uses a Joke API to fetch a programming joke then it uses a Text To Speech API to read out the fetched jokes to user.
 
 ## Tech Stack
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/sahiljamwal)
@@ -19,7 +12,6 @@ This is great if you like 'dad-jokes' in a programming format.
 ## Site Status
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-Link to Demo-Website:  XXXXXX
 
 ## How to Use
 <ul>
@@ -43,13 +35,8 @@ Get your own API Key
 <li>Start the project by running <code>index.html</code></li>
 </ul>
 
-## Hashtags
-
-### Logic
-
-- \# fetch api
-- \# async function
-- \# try / catch
-- \# css loader / spinner
-- \# audio element
-
+## External API consumed
+<ul>
+<li><a href="http://www.voicerss.org/api/" target="_blank">Voice RSS Text-to-speech (TTS) API</li>
+<li><a href="https://sv443.net/jokeapi/v2/" target="_blank">Joke API</li>
+</ul>
