@@ -37,7 +37,8 @@ Get your own API Key:
     3. When your account is created, you need to activate the account by clicking the 'Activate Account'. button on the sign up page.
     4. Once your account is activated, you can copy your API key and paste it into the script.js file.
     - Line 26, replace 'config.MY_KEY' with your API key contained in single quotes.
-    - for example:
+
+Alternatively use this API Key:
 <code> key: '3ec70864256548acb47fef744d284814', </code>
 (This is a fun API - feel free to use it)
 
