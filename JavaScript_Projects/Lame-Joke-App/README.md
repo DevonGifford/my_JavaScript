@@ -22,28 +22,27 @@ This is great if you like 'dad-jokes' in a programming format.
 Link to Demo-Website:  XXXXXX
 
 ## How to Use
+
+### Clone the repo
 <ul>
-Clone the repo
 <li>Fork this Repo </li>
 <li>run git clone <YOUR-REPO-LINK></li>
 <code>git clone &ltyour-github-repo-link&gt</code>
 <li>Open the project folder in your favorite Code Editor.</li>
 </ul>
 
-Get your own API Key:
-
+#### Get your own API Key:
     1. Click on 'Get API Key' on the left nav bar.
     2. Create a free account.
     3. When your account is created, you need to activate the account by clicking the 'Activate Account'. button on the sign up page.
     4. Once your account is activated, you can copy your API key and paste it into the script.js file.
     - Line 26, replace 'config.MY_KEY' with your API key contained in single quotes.
 
-Alternatively use this API Key:
-
+#### Alternatively use this API Key:
 <code>key: '3ec70864256548acb47fef744d284814'</code>
 <li>This is a fun API - feel free to use it</li>
 
-Finally:
+### Finally:
 Start the project by running <code>index.html</code>
 
 ## Hashtags
