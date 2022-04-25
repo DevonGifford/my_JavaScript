@@ -4,9 +4,9 @@ This is a repo for all the little Vanilla JavaScript projects I have in my portf
 
 - [x] 1. Random Quote Generator:            GitHub | Demo
 
-- [ ] 2. Infinite Scroll Through Images:    GitHub | Demo
+- [x] 2. Infinite Scroll Through Images:    GitHub | Demo
 
-- [ ] 3. Picture in Picture:                GitHub | Demo
+- [x] 3. Picture in Picture:                GitHub | Demo
 
 - [ ] 4. Random Joke Generator:             GitHub | Demo
 
