@@ -8,11 +8,11 @@ This is a repo for all the little Vanilla JavaScript projects I have in my portf
 
 - [x] 3. Picture in Picture:                GitHub | Demo
 
-- [ ] 4. Random Joke Generator:             GitHub | Demo
+- [x] 4. Random Joke Generator:             GitHub | Demo
 
-- [ ] 5. Light / Dark Mode:                 GitHub | Demo
+- [x] 5. Light / Dark Mode:                 GitHub | Demo
 
-- [ ] 6. Animated Website Template:         GitHub | Demo
+- [x] 6. Animated Website Template:         GitHub | Demo
 
 - [ ] 7. Animated Navigation:               GitHub | Demo
 
