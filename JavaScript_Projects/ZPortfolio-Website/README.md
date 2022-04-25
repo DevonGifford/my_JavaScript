@@ -1,10 +1,8 @@
-# Landing Page - Light-Dark-Mode - in progress...
-
-Still in progress...
+# Portfolio Website - in progress...
  
 ## Description
 
-
+Creating a website for my portfolio 
 
 ## Tech Stack
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/sahiljamwal)
@@ -14,19 +12,36 @@ Still in progress...
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
+## TO-DO-LIST
+- [x]  
+- [ ]  
+
+### Navigation 
+- [x]  
+- [ ]  
+
+### Home Page
+- [x]  
+- [ ]  
+
+
+### About Section
+- [x]  
+- [ ]  
+
+### Portfolio Section
+- [x]  
+- [ ]  
+
+### Contact Section
+- [x]  
+- [ ]  
+
+
+
+
 
 ## Site Status
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-Link to Demo-Website:  XXXXXX
-
-## How to Use
-
-### Clone the repo
-<ul>
-<li>Fork this Repo </li>
-<li>run git clone <YOUR-REPO-LINK></li>
-<code>git clone &ltyour-github-repo-link&gt</code>
-<li>Open the project folder in your favorite Code Editor.</li>
-<li>Start the project by running <code>index.html</code></li>
-</ul>
+Link to Website:  XXXXXX
