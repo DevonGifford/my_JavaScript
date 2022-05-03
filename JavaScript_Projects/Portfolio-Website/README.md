@@ -14,7 +14,9 @@ Creating a website for my portfolio
 
 ## TO-DO-LIST
 - [x]  
-- [ ]  
+
+- [ ]  Adding scrolling HardSkills
+- [ ]  Adding scrolling animations
 
 ### Navigation 
 - [x]  
@@ -22,11 +24,14 @@ Creating a website for my portfolio
 
 ### Home Page
 - [x]  
-- [ ]  
+- [ ]  Adding typing JavaScript to Title 
+- [ ]  Restyle the Grid Layout (responsive)
 
 
 ### About Section
 - [x]  
+- [ ]  Restyle the Grid
+- [ ]  Adding Rolling Hard Skill Animation
 - [ ]  
 
 ### Portfolio Section
@@ -36,6 +41,11 @@ Creating a website for my portfolio
 ### Contact Section
 - [x]  
 - [ ]  
+
+### Other Section
+- [x]  
+- [ ]  Creating Media Queries
+- [ ] 
 
 
 
