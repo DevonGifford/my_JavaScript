@@ -1,4 +1,13 @@
-This is a repo for all the little Vanilla JavaScript projects I have in my portfolio 
+# 20 Vanilla JavaScript Projects - in progress...
+ 
+## Description
+
+This is a repo for all the little Vanilla JavaScript projects I have in my portfolio.
+
+- [ ]  ADD LINKS TO GITHUB & DEMO'S
+
+
+
 
 ##  Current Progress List 
 
