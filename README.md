@@ -23,49 +23,50 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
     <td><b style="font-size:30px">[ZTM Complete Web Developer](https://academy.zerotomastery.io/courses/enrolled/697434)</b></td>
  </tr>
  <tr>
-    <td>Lorem ipsum ...</td>
-    <td>Lorem ipsum ...</td>
+    <td>
+    * HTML5 & CSS3
+    * SemanticUI
+    * Responsive Design
+    * Flexbox & CSS Grid
+    * Bootstrap 5 & Tailwind
+    * DOM Manipulation
+    * JavaScript (ES6 through to ES2022)
+    * Asynchronous JavaScript
+    * HTTP/JSON/AJAX
+    * Git + Github
+    * Command Line
+    * NPM
+    * RESTful API Design
+    * PostgresSQL
+    * SQL
+    * Authentication & Authorization
+    * Scalable Infrastructure
+    * Security
+    </td>
+    <td>
+    * Production and Deployment
+    * SSH
+    * React + Redux
+    * Webpack + Parcel
+    * Node.js + Express
+    * Front End Performance Optimizations
+    * Back End Performance Optimization
+    * Progressive Web Apps
+    * Typescript
+    * Software Testing
+    * Server Side Rendering and Client Side Rendering
+    * Front End Security Optimizations
+    * Back End Security Optimizations
+    * Docker
+    * Redis
+    * Sessions + JWT
+    * Amazon Web Services ("AWS")
+    * Serverless Architecture
+    * Continuous Integration
+    * Continuous Delivery
+    * Continuous Deployment
+    </td>
  </tr>
 </table>
 
-* HTML/HTML5
-* CSS/CSS3
-* SemanticUI
-* Responsive Design
-* Flexbox & CSS Grid
-* Bootstrap 5
-* Tailwind
-* DOM Manipulation
-* JavaScript (ES6 through to ES2022)
-* Asynchronous JavaScript
-* HTTP/JSON/AJAX
-* Git + Github
-* Command Line
-* NPM
-* RESTful API Design
-* PostgresSQL
-* SQL
-* Authentication & Authorization
-* Scalable Infrastructure
-* Security
-* Production and Deployment
-* SSH
-* React + Redux
-* Webpack + Parcel
-* Node.js + Express
-* Front End Performance Optimizations
-* Back End Performance Optimization
-* Progressive Web Apps
-* Typescript
-* Software Testing
-* Server Side Rendering and Client Side Rendering
-* Front End Security Optimizations
-* Back End Security Optimizations
-* Docker
-* Redis
-* Sessions + JWT
-* Amazon Web Services ("AWS")
-* Serverless Architecture
-* Continuous Integration
-* Continuous Delivery
-* Continuous Deployment
+
