@@ -24,47 +24,48 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
  </tr>
  <tr>
     <td>
-    * HTML5 & CSS3
-    * SemanticUI
-    * Responsive Design
-    * Flexbox & CSS Grid
-    * Bootstrap 5 & Tailwind
-    * DOM Manipulation
-    * JavaScript (ES6 through to ES2022)
-    * Asynchronous JavaScript
-    * HTTP/JSON/AJAX
-    * Git + Github
-    * Command Line
-    * NPM
-    * RESTful API Design
-    * PostgresSQL
-    * SQL
-    * Authentication & Authorization
-    * Scalable Infrastructure
-    * Security
+    * HTML5 & CSS3 <br/>
+    * SemanticUI <br/>
+    * Responsive Design<br/>
+    * Flexbox & CSS Grid<br/>
+    * Bootstrap 5 & Tailwind<br/>
+    * DOM Manipulation<br/>
+    * JavaScript (ES6 through to ES2022)<br/>
+    * Asynchronous JavaScript<br/>
+    * HTTP/JSON/AJAX<br/>
+    * Git + Github<br/>
+    * Command Line<br/>
+    * NPM<br/>
+    * RESTful API Design<br/>
+    * PostgresSQL<br/>
+    * SQL<br/>
+    * Authentication & Authorization<br/>
+    * Scalable Infrastructure<br/>
+    * Security<br/>
     </td>
     <td>
-    * Production and Deployment
-    * SSH
-    * React + Redux
-    * Webpack + Parcel
-    * Node.js + Express
-    * Front End Performance Optimizations
-    * Back End Performance Optimization
-    * Progressive Web Apps
-    * Typescript
-    * Software Testing
-    * Server Side Rendering and Client Side Rendering
-    * Front End Security Optimizations
-    * Back End Security Optimizations
-    * Docker
-    * Redis
-    * Sessions + JWT
-    * Amazon Web Services ("AWS")
-    * Serverless Architecture
-    * Continuous Integration
-    * Continuous Delivery
-    * Continuous Deployment
+    * Production and Deployment<br/>
+    * SSH<br/>
+    * React + Redux<br/>
+    * Webpack + Parcel<br/>
+    * Node.js + Express<br/>
+    * FrontEnd Performance Optimizations<br/>
+    * BackEnd Performance Optimization<br/>
+    * Progressive Web Apps<br/>
+    * Typescript<br/>
+    * Software Testing<br/>
+    * Server Side Rendering<br/> 
+    * Client Side Rendering<br/>
+    * Front End Security Optimizations<br/>
+    * Back End Security Optimizations<br/>
+    * Docker<br/>
+    * Redis<br/>
+    * Sessions + JWT<br/>
+    * Amazon Web Services ("AWS")<br/>
+    * Serverless Architecture<br/>
+    * Continuous Integration<br/>
+    * Continuous Delivery<br/>
+    * Continuous Deployment<br/>
     </td>
  </tr>
 </table>
