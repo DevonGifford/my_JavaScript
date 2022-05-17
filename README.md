@@ -24,11 +24,14 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
  </tr>
  <tr>
     <td>
-    * HTML5 & CSS3 <br/>
+    * HTML5 <br/> 
+    * CSS3 <br/>
     * SemanticUI <br/>
     * Responsive Design<br/>
-    * Flexbox & CSS Grid<br/>
-    * Bootstrap 5 & Tailwind<br/>
+    * Flexbox<br/>
+    * CSS Grid<br/>
+    * Bootstrap 5<br/>
+    * Tailwind<br/>
     * DOM Manipulation<br/>
     * JavaScript (ES6 through to ES2022)<br/>
     * Asynchronous JavaScript<br/>
