@@ -2,6 +2,10 @@
 
 This is part of my 100 days of code challenge. 
 
+## Complete:
+[ZTM Junior to Senior Web Developer](https://academy.zerotomastery.io/courses/enrolled/700470)
+
+[ZTM Complete Web Developer](https://academy.zerotomastery.io/courses/enrolled/697434)
 
 ## In-progress:
 
@@ -19,8 +23,8 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
 
 <table border="0">
  <tr>
-    <td><b style="font-size:30px">[ZTM Junior to Senior Web Developer](https://academy.zerotomastery.io/courses/enrolled/700470)</b></td>
-    <td><b style="font-size:30px">[ZTM Complete Web Developer](https://academy.zerotomastery.io/courses/enrolled/697434)</b></td>
+    <td><b style="font-size:30px">ZTM Junior to Senior Web Developer</b></td>
+    <td><b style="font-size:30px">ZTM Complete Web Developer</b></td>
  </tr>
  <tr>
     <td>
