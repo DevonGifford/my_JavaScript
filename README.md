@@ -25,6 +25,7 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
  <tr>
     <td><b style="font-size:30px">ZTM Junior to Senior Web Developer</b></td>
     <td><b style="font-size:30px">ZTM Complete Web Developer</b></td>
+    <td><b style="font-size:30px">JavaScript: The Advanced Concepts</b></td>
  </tr>
  <tr>
     <td>
@@ -73,6 +74,52 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
     * Continuous Integration<br/>
     * Continuous Delivery<br/>
     * Continuous Deployment<br/>
+    </td>
+    <td>
+    * Javascript Engine & Runtimes<br/>
+    * Interpreter, Compiler, JIT Compiler<br/>
+    * Writing Optimized Code<br/>
+    * Call Stack + Memory Heap<br/>
+    * Stack Overflow + Memory Leaks<br/>
+    * Garbage Collection<br/>
+    * Single Threaded Model<br/>
+    * Execution Context<br/>
+    * Lexical Environment<br/>
+    * Scope Chain<br/>
+    * Hoisting<br/>
+    * Function Invocation<br/>
+    * Function Scope vs Block Scope<br/>
+    * Dynamic vs Lexical Scope<br/>
+    * this: call(), apply(), bind()<br/>
+    * IIFEs<br/>
+    * Context vs Scope<br/>
+    * Static vs Dynamically Typed<br/>
+    * Primitive Types<br/>
+    * Pass by Reference vs Pass by Value<br/>
+    * Type Coercion<br/>
+    * Arrays, Functions, Objects<br/>
+    * Closures<br/>
+    * Prototypal Inheritance<br/>
+    * Class Inheritance<br/>
+    * Memoization<br/>
+    * Scheme + Java in JavaScript<br/>
+    * OOP (Object Oriented Programming)<br/>
+    * Private vs Public Properties<br/>
+    * Functional Programming<br/>
+    * Imperative vs Declarative code<br/>
+    * Composition vs Inheritance<br/>
+    * Currying<br/>
+    * Partial Application<br/>
+    * Pure Functions<br/>
+    * Referential Transparency<br/>
+    * Compose<br/>
+    * Pipe<br/>
+    * Error Handling<br/>
+    * Callbacks, Promises, Async/Await<br/>
+    * Event Loop + Callback Queue<br/>
+    * Task Queue + Microtask Queue<br/>
+    * Concurrency + Parallelism<br/>
+    * Modules in Javascript<br/>
     </td>
  </tr>
 </table>
