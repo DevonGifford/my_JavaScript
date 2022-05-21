@@ -7,6 +7,8 @@ This is part of my 100 days of code challenge.
 
 [ZTM Complete Web Developer](https://academy.zerotomastery.io/courses/enrolled/697434)
 
+[JavaScript: The Advanced Concepts](https://academy.zerotomastery.io/courses/enrolled/698487)
+
 ## In-progress:
 
 Currently working on the following topics 
