@@ -25,9 +25,9 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
 
 <table border="0">
  <tr>
-    <td><b style="font-size:30px">ZTM Junior to Senior Web Developer</b></td>
-    <td><b style="font-size:30px">ZTM Complete Web Developer</b></td>
-    <td><b style="font-size:30px">JavaScript: The Advanced Concepts</b></td>
+    <td><b style="font-size:30px">Complete Web Developer</b></td>
+    <td><b style="font-size:30px">Junior to Senior Web Developer</b></td>
+    <td><b style="font-size:30px">JS: The Advanced Concepts</b></td>
  </tr>
  <tr>
     <td>
