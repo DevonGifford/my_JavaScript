@@ -22,6 +22,7 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
 (insert link here)
 
 ### List of all topics covered
+=====================================================================================================================
 
 <table border="0">
  <tr>
