@@ -1,28 +1,21 @@
 # JavaScript Showcase
 
-This is part of my 100 days of code challenge. 
+This repo is for the purposes of showcasing the smaller projects as well as collecting all of the exercises I have completed on while completeing the ZTM fullstack career path.
 
-## Complete:
+## In-progress:
+---------------------------------------------------
+
 [ZTM Junior to Senior Web Developer](https://academy.zerotomastery.io/courses/enrolled/700470)
 
 [ZTM Complete Web Developer](https://academy.zerotomastery.io/courses/enrolled/697434)
 
 [JavaScript: The Advanced Concepts](https://academy.zerotomastery.io/courses/enrolled/698487)
 
-## In-progress:
+[JavaScript Web Projects](https://zerotomastery.io/courses/javascript-projects/)
 
-Currently working on the following topics 
-
-* JavaScript Projects
-* Advanced JavaScript course 
-
-### note
-
-This repo is for the purposes of showcasing the smaller projects as well as collecting all of the exercises I have worked on while completeing the ZTM fullstack career path.
-(insert link here)
 
 ### List of all topics covered
-=====================================================================================================================
+---------------------------------------------------
 
 <table border="0">
  <tr>
