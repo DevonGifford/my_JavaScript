@@ -6,6 +6,8 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
 ---------------------------------------------------
 
 〰️〰️〰️〰️〰️🏄🌊🌊🌊🌊
+🥅➖➖➖⚽️➖➖➖➖🏃‍♂️
+✅✅✅✅🔲🔲🔲🔲🔲🔲
 
 [ZTM Junior to Senior Web Developer](https://academy.zerotomastery.io/courses/enrolled/700470)
 
