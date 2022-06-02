@@ -1,8 +1,7 @@
 # Animated Navigation - in progress...
 
-The main goal of this project was to create a website with an interactive navigation.
-Simple and to the point.
-Not populated with data, used for experimentation with different ways to customize navigation menus.
+The main goal of this project was to create a website with an interactive navigation menu that is responsive.
+Keeping it simple and to the point.
 
 ## Tech Stack
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/sahiljamwal)
