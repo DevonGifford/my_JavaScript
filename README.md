@@ -4,10 +4,9 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
 
 ## In-progress:
 ---------------------------------------------------
-
-〰️〰️〰️〰️〰️🏄🌊🌊🌊🌊
-🥅➖➖➖⚽️➖➖➖➖🏃‍♂️
-✅✅✅✅🔲🔲🔲🔲🔲🔲
+〰️〰️〰️〰️〰️🏄🌊🌊🌊🌊 <br/>
+🥅➖➖➖⚽️➖➖➖➖🏃‍♂️<br/>
+✅✅✅✅🔲🔲🔲🔲🔲🔲<br/>
 
 [ZTM Junior to Senior Web Developer](https://academy.zerotomastery.io/courses/enrolled/700470)
 
