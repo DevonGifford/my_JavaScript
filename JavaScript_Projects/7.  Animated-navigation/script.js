@@ -57,8 +57,9 @@ function toggleNav() {
         }
 }
 
-
-//Even Listeners
+/*-------------------------------------------------------------------
+//Event Listeners
+---------------------------------------------------------------------*/
 menuBars.addEventListener('click', toggleNav);
 
 navItems.forEach((nav) => {
