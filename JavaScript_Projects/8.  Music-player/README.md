@@ -1,7 +1,9 @@
 # Animated Navigation - in progress...
 
 The main goal of this project was to create a music player interface where a user can play, pause, skip, rewind, and scrub through a song.
-Keeping it simple and to the point.
+
+Keeping it simple and to the point.  Not intended to be a spotify clone.
+Alot more functionality could be added  (i.e. Volume Bar, Playlist's, rewind 5 seconds)
 
 ## Tech Stack
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/sahiljamwal)

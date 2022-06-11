@@ -10,19 +10,43 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #bfc3c7;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: Raleway, sans-serif;
-
+  
   font-size: 12px;
+  background-image: url('https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
 }
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
 
 .player-container {
   height: 500px;
   width: 400px;
-  background-color: #e3e7eb;
+  background-color: #e3e7eb93;
   border-radius: 25px;
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
 }
