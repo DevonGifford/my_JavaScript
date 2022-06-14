@@ -32,6 +32,7 @@ const hour = minute * 60;
 const day = hour * 24;
 /* -----------------------------------------------------------------------------------------------*/
 
+
 // Setting 'minimum input date' with todays date
 const today = new Date().toISOString().split('T')[0];
 dateEl.setAttribute('min', today);
@@ -40,29 +41,32 @@ dateEl.setAttribute('min', today);
 /* -----------------------------------------------------------------------------------------------\
     FUNCTION:    Populate countdown / complete UI
 -----------------------------------------------------------------------------------------------*/
+
 function updateDOM() {
-    const now = new Date().getTime();
-    const distance = countdownValue - now;
-    console.log('distance:', distance);
-
-    //Split up the time held in distance into days, hours, minutes, and seconds.
-    const days = Math.floor(distance / day);
-    const hours = Math.floor((distance % day) / hour);
-    const minutes = Math.floor((distance % hour) / minute);
-    const seconds = Math.floor((distance % minute) / second);
-    console.log('days:',days, 'hours:', hours, 'minutes:',minutes, 'seconds:',seconds);
-
-    //Populate Countdown
-    countdownElTitle.textContent = `${countdownTitle}`;
-    timeElements[0].textContent = `${days}`;
-    timeElements[1].textContent = `${hours}`;
-    timeElements[2].textContent = `${minutes}`;
-    timeElements[3].textContent = `${seconds}`;
-
-    // Hide Input
-    inputContainer.hidden = true;
-    // Show Countdown
-    countdownEl.hidden = false;
+    countdownActive = setInterval (() => {
+        const now = new Date().getTime();
+        const distance = countdownValue - now;
+        console.log('distance:', distance);
+    
+        //Split up the time held in distance into days, hours, minutes, and seconds.
+        const days = Math.floor(distance / day);
+        const hours = Math.floor((distance % day) / hour);
+        const minutes = Math.floor((distance % hour) / minute);
+        const seconds = Math.floor((distance % minute) / second);
+        console.log('days:',days, 'hours:', hours, 'minutes:',minutes, 'seconds:',seconds);
+    
+        //Populate Countdown
+        countdownElTitle.textContent = `${countdownTitle}`;
+        timeElements[0].textContent = `${days}`;
+        timeElements[1].textContent = `${hours}`;
+        timeElements[2].textContent = `${minutes}`;
+        timeElements[3].textContent = `${seconds}`;
+    
+        // Hide Input
+        inputContainer.hidden = true;
+        // Show Countdown
+        countdownEl.hidden = false;
+    }, second);
 }
 
 
@@ -111,15 +115,18 @@ function updateCountdown(event) {
     countdownDate = event.srcElement[1].value;
     console.log('Count Down Title:', countdownTitle);
     console.log('Count Down Date:' ,countdownDate);
-    
-    // Get the numbner version of current date and update DOM
-    countdownValue = new Date(countdownDate).getTime();
-    console.log('countdown value:', countdownValue);
-    updateDOM();
-    
-  }
 
-
+    //check for valid date    
+    if (countdownDate === '') {
+        alert('Please select a date for the countdown.');
+      } else {
+    
+    // Get the number version of current date and update DOM
+          countdownValue = new Date(countdownDate).getTime();
+          console.log('countdown value:', countdownValue);
+          updateDOM();   
+      }
+}
 // function updateCountdown(event) {
 //     event.preventDefault();
 //     countdownTitle = event.srcElement[0].value;
@@ -141,11 +148,28 @@ function updateCountdown(event) {
 //   }
 
 
+/* -----------------------------------------------------------------------------------------------\
+    FUNCTION:    Reset all values 
+-----------------------------------------------------------------------------------------------*/
+
+function reset() {
+ // Hide Countdown and show input
+    countdownEl.hidden = true;
+    inputContainer.hidden = false;
+
+
+ // Stop the countdown
+    clearInterval(countdownActive);
+
+ // Reset Values
+    countdownTitle = '';
+    countdownDate = '';
+}
 
 
 /* -----------------------------------------------------------------------------------------------
     EVENT LILSTENERS
 --------------------------------------------------------------------------------------------------*/
 countdownForm.addEventListener('submit', updateCountdown);
-//resetBtn.addEventListener('click', reset);
+resetBtn.addEventListener('click', reset);
 //completeBtn.addEventListener('click', reset);
