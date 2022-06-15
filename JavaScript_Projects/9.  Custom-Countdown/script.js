@@ -128,7 +128,7 @@ function reset() {
 -----------------------------------------------------------------------------------------------*/
 
 function restorePreviousCountdown() {
-    console.log('restore function is running');
+    console.log('restore function is checking');
         if (localStorage.getItem('countdown')) {
             inputContainer.hidden = true;
             savedCountdown = JSON.parse(localStorage.getItem('countdown'));
@@ -136,9 +136,9 @@ function restorePreviousCountdown() {
             countdownDate = savedCountdown.date;
             countdownValue = new Date(countdownDate).getTime();
             updateDOM();
-            console.log('data is passing through to the dom')
+            console.log('collecting data from Local Storage & passing through to the dom')
         } else {
-            console.log('no data has been found here')
+            console.log('no previous timers found in Local Storage')
         }
 }
 
