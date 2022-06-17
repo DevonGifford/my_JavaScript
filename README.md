@@ -1,12 +1,21 @@
-# JavaScript Showcase
+<div align="center">
+    <h1> Personal JavaScript Showcase Repo </h1>
+</div>
 
-This repo is for the purposes of showcasing the smaller projects as well as collecting all of the exercises I have completed on while completeing the ZTM fullstack career path.
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react" />
+  </a>
+</p> 
 
-## In-progress:
----------------------------------------------------
-〰️〰️〰️〰️〰️🏄🌊🌊🌊🌊 <br/>
-🥅➖➖➖⚽️➖➖➖➖🏃‍♂️<br/>
-✅✅✅✅🔲🔲🔲🔲🔲🔲<br/>
+<hr>
+
+<h3> Description: </h3>
+
+This repo is for the purposes of showcasing the smaller projects as well as collecting all of the exercises I have completed on while completeing the ZTM fullstack career path. 
+
+<h4> Specifically pertaining to the following bootcamps:: </h4>
+
 
 [ZTM Junior to Senior Web Developer](https://academy.zerotomastery.io/courses/enrolled/700470)
 
