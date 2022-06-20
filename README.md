@@ -4,7 +4,19 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react&perline=2" />
+    <img src="https://skillicons.dev/icons?i=html,css" />
+  </a>
+</p> 
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,ts" />
+  </a>
+</p> 
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react" />
   </a>
 </p> 
 
