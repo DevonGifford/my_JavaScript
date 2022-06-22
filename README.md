@@ -1,7 +1,9 @@
+<!-- HEADING -->
 <div align="center">
     <h1> Personal JavaScript Showcase Repo </h1>
 </div>
 
+<!-- TECH USED LOGO'S -->
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css" />
@@ -22,7 +24,7 @@
 
 <hr>
 
-<h3> Description: </h3>
+<h3> Brief Description: </h3>
 
 This repo is for the purposes of showcasing the smaller projects as well as collecting all of the exercises I have completed on while completeing the ZTM fullstack career path. 
 
@@ -37,6 +39,25 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
 
 [JavaScript Web Projects](https://zerotomastery.io/courses/javascript-projects/)
 
+<h3> Link to a list of all the projects in this repo </h3>
+
+<p>
+  <a href="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects#readme">
+    Link to all my vanilla JavaScript Projects
+   </a>
+   <a href="https://github.com/DevonGifford/FaceDetectionApp-Frontend">
+    Link to Face Detection App (frontend)
+  </a>
+  <a href="https://github.com/DevonGifford/FaceDetectionApp-BackEnd">
+    Link to Face Detection App (backend)
+  </a>
+  <a href="https://github.com/DevonGifford/Portfolio-MLH-DesignHack">
+    Portfolio website 
+  </a>
+  <a href="https://github.com/DevonGifford/References_app">
+    References App
+  </a>
+</p> 
 
 ### List of all topics covered
 ---------------------------------------------------
