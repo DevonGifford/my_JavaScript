@@ -44,16 +44,16 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
 <p>
   <a href="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects#readme">
     Link to all my vanilla JavaScript Projects
-   </a>
+   </a> <br>
    <a href="https://github.com/DevonGifford/FaceDetectionApp-Frontend">
     Link to Face Detection App (frontend)
-  </a>
+  </a> <br>
   <a href="https://github.com/DevonGifford/FaceDetectionApp-BackEnd">
     Link to Face Detection App (backend)
-  </a>
+  </a> <br>
   <a href="https://github.com/DevonGifford/Portfolio-MLH-DesignHack">
     Portfolio website 
-  </a>
+  </a> <br>
   <a href="https://github.com/DevonGifford/References_app">
     References App
   </a>
