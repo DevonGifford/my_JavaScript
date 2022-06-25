@@ -42,21 +42,29 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
 <h3> Link to a list of all the projects in this repo </h3>
 
 <p>
-  <a href="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects#readme">
+   <li> <a href="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects#readme">
     Link to all my vanilla JavaScript Projects
-   </a> <br>
-   <a href="https://github.com/DevonGifford/FaceDetectionApp-Frontend">
+   </a> 
+   <br>
+   
+   <li> <a href="https://github.com/DevonGifford/FaceDetectionApp-Frontend">
     Link to Face Detection App (frontend)
-  </a> <br>
-  <a href="https://github.com/DevonGifford/FaceDetectionApp-BackEnd">
+   </a> 
+   <br>
+   
+   <li> <a href="https://github.com/DevonGifford/FaceDetectionApp-BackEnd">
     Link to Face Detection App (backend)
-  </a> <br>
-  <a href="https://github.com/DevonGifford/Portfolio-MLH-DesignHack">
+   </a> 
+   <br>
+   
+   <li> <a href="https://github.com/DevonGifford/Portfolio-MLH-DesignHack">
     Portfolio website 
-  </a> <br>
-  <a href="https://github.com/DevonGifford/References_app">
+   </a> 
+   <br>
+   
+   <li> <a href="https://github.com/DevonGifford/References_app">
     References App
-  </a>
+   </a>
 </p> 
 
 ### List of all topics covered
