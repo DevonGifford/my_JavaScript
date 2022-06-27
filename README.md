@@ -26,6 +26,8 @@
 
 <h3> Brief Description: </h3>
 
+<hr>
+
 This repo is for the purposes of showcasing the smaller projects as well as collecting all of the exercises I have completed on while completeing the ZTM fullstack career path. 
 
 <h4> Specifically pertaining to the following bootcamps:: </h4>
@@ -39,7 +41,10 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
 
 [JavaScript Web Projects](https://zerotomastery.io/courses/javascript-projects/)
 
+
 <h3> Link to a list of all the projects in this repo </h3>
+
+<hr>
 
 <p>
    <li> <a href="https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects#readme">
