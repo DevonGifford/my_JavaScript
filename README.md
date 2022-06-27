@@ -27,7 +27,7 @@
 
 <hr>
 
-This repo is for the purposes of showcasing the smaller projects as well as collecting all of the exercises I have completed on while completeing the ZTM fullstack career path. 
+This repo is for the purposes of showcasing the smaller projects as well as collecting all of the exercises I have completed while completeing the ZTM fullstack career path. 
 
 <h4> Specifically pertaining to the following bootcamps: </h4>
 
