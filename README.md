@@ -22,7 +22,6 @@
   </a>
 </p> 
 
-<hr>
 
 <h3> Brief Description: </h3>
 
