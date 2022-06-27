@@ -29,7 +29,7 @@
 
 This repo is for the purposes of showcasing the smaller projects as well as collecting all of the exercises I have completed on while completeing the ZTM fullstack career path. 
 
-<h4> Specifically pertaining to the following bootcamps:: </h4>
+<h4> Specifically pertaining to the following bootcamps: </h4>
 
 
 [ZTM Junior to Senior Web Developer](https://academy.zerotomastery.io/courses/enrolled/700470)
