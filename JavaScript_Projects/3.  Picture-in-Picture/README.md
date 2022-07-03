@@ -2,21 +2,24 @@
 
 This is an app that will allow you to open any screen, application, or tab in a movable, resizable, window that will stay on top of anything you do. 
 
-Perfect for those Youtube coding tutorials 
+Perfect for those Youtube coding tutorials
+
+## Thoughts
+
+This was surprisingly simple to implement - Initially I thought this would have been a serious challenge.  However just an async function with some simple built in functionality and ta-dah it's done.
 
 ## Tech Stack
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/sahiljamwal)
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
-
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 
 ## Site Status
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-Link to Demo-Website:  XXXXXX
+Link to Demo-Website:  https://app.netlify.com/sites/devon-picture-in-picture-app/
 
 
 ### Instructions
