@@ -9,21 +9,26 @@ A random programming joke will be fetched from an open API and handed over to a 
 
 This is great if you like 'dad-jokes' in a programming format.
 
+## Thoughts
+
+While this was an interesting little project and was nice to learn a little more about incorporating a text-to-speech aspect to the app - again simpler than what I thought it would be.
+I decided to keep it simple for the sake of functionality by just calling on an API that will output our joke in TTS. 
+Also using a switch statement over an if-else conditional was fun.
+
 ## Tech Stack
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/sahiljamwal)
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
-
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 
 ## Site Status
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-Link to Demo-Website:  XXXXXX
+Link to Demo-Website:  https://app.netlify.com/sites/devon-joke-generator/
 
-## How to Use
+## How to run locally
 
 ### Clone the repo
 <ul>
