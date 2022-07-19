@@ -1,4 +1,4 @@
-# Infinite Scrolling Website - in progress...
+# Infinite Scrolling Website 
 
 This project was for me to learn how to create a website that will continously load photos as you scroll.
 
@@ -20,7 +20,9 @@ A lot more could be dont to this page however this is purely an example of imple
 ## Site Status
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-Link to Demo-Website:  https://app.netlify.com/sites/devon-infinite-scroll/
+Link to Demo-Website:  https://devon-infinite-scroll.netlify.app/
+
+<hr>
 
 ## Run on your machine
 
