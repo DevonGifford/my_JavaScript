@@ -1,4 +1,4 @@
-# Quote Generator - in progress ...
+# Quote Generator 
 
 ## Tech Stack
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/sahiljamwal)
@@ -11,7 +11,7 @@
 ## Site Status
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-Link to Demo-Website:  https://app.netlify.com/sites/devon-quote-generator/
+Link to Demo-Website:  https://devon-quote-generator.netlify.app/
 
 # Thoughts
 
