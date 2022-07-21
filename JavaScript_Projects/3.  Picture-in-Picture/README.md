@@ -1,4 +1,4 @@
-# Picture in Picture - in progress...
+# Picture in Picture
 
 This is an app that will allow you to open any screen, application, or tab in a movable, resizable, window that will stay on top of anything you do. 
 
@@ -19,7 +19,7 @@ This was surprisingly simple to implement - Initially I thought this would have 
 ## Site Status
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-Link to Demo-Website:  https://app.netlify.com/sites/devon-picture-in-picture-app/
+Link to Demo-Website:  https://devon-picture-in-picture-app.netlify.app/
 
 
 ### Instructions
