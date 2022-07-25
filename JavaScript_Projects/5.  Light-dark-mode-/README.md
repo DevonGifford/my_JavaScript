@@ -1,4 +1,4 @@
-# Picture in Picture - in progress...
+# Picture in Picture
 
 The main goal of this project was to create a website that can toggle between light and dark themes.  It also features localHost so the user's preference is saved and will be defaulted to the appropriate them when the user returns.
 
@@ -21,4 +21,4 @@ While I could have done more to make the website be more interesting, I decided 
 ## Site Status
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-Link to Demo-Website:  https://app.netlify.com/sites/devon-light-dark-mode/
+Link to Demo-Website:  https://devon-light-dark-mode.netlify.app/
