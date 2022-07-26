@@ -1,6 +1,4 @@
-# Lame-Joke-App - in progress...
-
-Still in progress...
+# Lame-Joke-App
  
 ## Description
 
