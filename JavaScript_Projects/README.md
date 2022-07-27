@@ -11,23 +11,23 @@ This is a repo for all the little Vanilla JavaScript projects I have in my portf
 
 ##  Current Progress List 
 
-- [x] 1. Random Quote Generator:            GitHub | Demo
+- ✅ 1. Random Quote Generator:            GitHub | Demo
 
-- [x] 2. Infinite Scroll Through Images:    GitHub | Demo
+- ✅ 2. Infinite Scroll Through Images:    GitHub | Demo
 
-- [x] 3. Picture in Picture:                GitHub | Demo
+- ✅ 3. Picture in Picture:                GitHub | Demo
 
-- [x] 4. Random Joke Generator:             GitHub | Demo
+- ✅ 4. Random Joke Generator:             GitHub | Demo
 
-- [x] 5. Light / Dark Mode:                 GitHub | Demo
+- ✅ 5. Light / Dark Mode:                 GitHub | Demo
 
-- [x] 6. Animated Website Template:         GitHub | Demo
+- ✅ 6. Animated Website Template:         GitHub | Demo
 
-- [ ] 7. Animated Navigation:               GitHub | Demo
+- ✅ 7. Animated Navigation:               GitHub | Demo
 
-- [ ] 8. JavaScript Music Player:           GitHub | Demo
+- ✅ 8. JavaScript Music Player:           GitHub | Demo
 
-- [ ] 9. Custom Countdown Timer:            GitHub | Demo
+- ✅ 9. Custom Countdown Timer:            GitHub | Demo
 
 - [ ] 10. Bookmark Keeper:                  GitHub | Demo
 
