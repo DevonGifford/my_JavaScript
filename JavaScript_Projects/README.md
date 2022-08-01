@@ -11,9 +11,9 @@ This is a repo for all the little Vanilla JavaScript projects I have in my portf
 
 ##  Current Progress List 
 
-- ✅ 1. Random Quote Generator: &nbsp;            [GitHub](https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects/1.%20%20Quote_Generator) | [Demo](https://devon-quote-generator.netlify.app/)
+- ✅ 1. Random Quote Generator: &nbsp; &nbsp;&nbsp;           [GitHub](https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects/1.%20%20Quote_Generator) | [Demo](https://devon-quote-generator.netlify.app/)
 
-- ✅ 2. Infinite Scroll Through Images: &nbsp;    [GitHub](https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects/2.%20%20Infinite_Scroll) | [Demo](https://devon-infinite-scroll.netlify.app/)
+- ✅ 2. Infinite Scroll Through Images: &nbsp; &nbsp;   [GitHub](https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects/2.%20%20Infinite_Scroll) | [Demo](https://devon-infinite-scroll.netlify.app/)
 
 - ✅ 3. Picture in Picture:                [GitHub](https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects/3.%20%20Picture-in-Picture) | [Demo](https://devon-picture-in-picture-app.netlify.app/)
 
