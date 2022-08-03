@@ -19,15 +19,15 @@ This is a repo for all the little Vanilla JavaScript projects I have in my portf
  </tr>
  <tr>
     <td>
-        - ✅ 1. Random Quote Generator:   
-        - ✅ 2. Infinite Scroll Through Images:
-        - ✅ 3. Picture in Picture:       
-        - ✅ 4. Random Joke Generator:    
-        - ✅ 5. Light / Dark Mode:        
-        - ✅ 6. Animated Website Template:
-        - ✅ 7. Animated Navigation:      
-        - ✅ 8. JavaScript Music Player:  
-        - ✅ 9. Custom Countdown Timer:   
+        - ✅ 1. Random Quote Generator:   <br>
+        - ✅ 2. Infinite Scroll Through Images: <br>
+        - ✅ 3. Picture in Picture:       <br>
+        - ✅ 4. Random Joke Generator:    <br>
+        - ✅ 5. Light / Dark Mode:        <br>
+        - ✅ 6. Animated Website Template:<br>
+        - ✅ 7. Animated Navigation:      <br>
+        - ✅ 8. JavaScript Music Player:  <br>
+        - ✅ 9. Custom Countdown Timer:   <br>
     </td>
     [GitHub](https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects/1.%20%20Quote_Generator)
     <td>
