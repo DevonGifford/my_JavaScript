@@ -13,7 +13,7 @@ This is a repo for all the little Vanilla JavaScript projects I have in my portf
 
 <table border="0">
  <tr>
-    <td><b style="font-size:30px">Title</b></td>
+    <td><b style="font-size:30px">Project Title</b></td>
     <td><b style="font-size:30px">GitHub</b></td>
     <td><b style="font-size:30px">LiveLink</b></td>
  </tr>
@@ -29,11 +29,13 @@ This is a repo for all the little Vanilla JavaScript projects I have in my portf
         - ✅ 8. JavaScript Music Player:  <br>
         - ✅ 9. Custom Countdown Timer:   <br>
     </td>
-    [GitHub](https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects/1.%20%20Quote_Generator)
     <td>
+
+[GitHub](https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects/1.%20%20Quote_Generator)
+    
     </td>
-    [devon-quote-generator.netlify.app](https://devon-quote-generator.netlify.app/)
     <td>
+[devon-quote-generator.netlify.app](https://devon-quote-generator.netlify.app/)
     </td>
  </tr>
 </table>
