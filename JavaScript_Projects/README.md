@@ -32,7 +32,6 @@ This is a repo for all the little Vanilla JavaScript projects I have in my portf
     <td>
 
 [GitHub](https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects/1.%20%20Quote_Generator)
-    
     </td>
     <td>
 [devon-quote-generator.netlify.app](https://devon-quote-generator.netlify.app/)
