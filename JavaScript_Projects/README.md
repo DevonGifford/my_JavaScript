@@ -2,11 +2,7 @@
  
 ## Description
 
-This is a repo for all the little Vanilla JavaScript projects I have in my portfolio.
-
-- [ ]  ADD LINKS TO GITHUB & DEMO'S
-
-
+This is a repo for all the Vanilla JavaScript projects I have in my portfolio.
 
 
 ##  Current Progress List 
