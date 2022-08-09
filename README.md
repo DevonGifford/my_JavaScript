@@ -52,23 +52,23 @@ This repo is for the purposes of showcasing the smaller projects as well as coll
    <br>
    
    <li> <a href="https://github.com/DevonGifford/FaceDetectionApp-Frontend">
-    Link to Face Detection App (Fullstack - Frontend)
-   </a> 
+    Link to Face Detection App 
+   </a> (Fullstack - Frontend)
    <br>
    
    <li> <a href="https://github.com/DevonGifford/FaceDetectionApp-BackEnd">
-    Link to Face Detection App (Fullstack - Backend)
-   </a> 
+    Link to Face Detection App 
+   </a> (Fullstack - Backend)
    <br>
    
    <li> <a href="https://github.com/DevonGifford/Portfolio-MLH-DesignHack">
-    Portfolio Website (NextJS)
-   </a> 
+    Portfolio Website 
+   </a> (NextJS)
    <br>
    
    <li> <a href="https://github.com/DevonGifford/References_app">
-    References App (React app)
-   </a>
+    References App 
+   </a> (React app)
 </p> 
 
 ### List of all topics covered
