@@ -22,4 +22,6 @@ As well as using and accessing local storage and creating some basic form valida
 ## Site Status 🎯
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-Link to Demo-Website: https://devon-countdown-app.netlify.app/
+[![Netlify Status](https://api.netlify.com/api/v1/badges/42e8c06f-c2dd-4232-8ec6-eb06cf4d5de9/deploy-status)](https://app.netlify.com/sites/devon-bookmark-app/deploys)
+
+Link to Demo-Website: https://devon-bookmark-app.netlify.app/
