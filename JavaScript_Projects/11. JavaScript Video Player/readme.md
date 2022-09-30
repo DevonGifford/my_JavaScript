@@ -1,5 +1,12 @@
 # JavaScript Videoplayer
 
+## Site Status 
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e521fe13-cbdb-4019-b35f-d02a264851e3/deploy-status)](https://app.netlify.com/sites/devon-javascript-videoplayer/deploys)
+
+[Link to Demo-Website](https://devon-javascript-videoplayer.netlify.app/)
+
 ## Thoughts
 
 The main goal of this project was to create a website with basic video playback capabilites 
@@ -24,9 +31,3 @@ That being said I can see how this project will be helpful in one day creating a
 
 
 
-## Site Status 
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e521fe13-cbdb-4019-b35f-d02a264851e3/deploy-status)](https://app.netlify.com/sites/devon-javascript-videoplayer/deploys)
-
-Link to Demo-Website: https://devon-javascript-videoplayer.netlify.app/

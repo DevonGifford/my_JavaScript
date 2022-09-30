@@ -1,5 +1,14 @@
 # Bookmark app
 
+## Site Status 
+
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/42e8c06f-c2dd-4232-8ec6-eb06cf4d5de9/deploy-status)](https://app.netlify.com/sites/devon-bookmark-app/deploys)
+
+[Link to Demo-Website](https://devon-bookmark-app.netlify.app/)
+
+
 ## Thoughts
 
 The main goal of this project was to create a website where you can save and bookmark websites. 
@@ -16,12 +25,3 @@ As well as using and accessing local storage and creating some basic form valida
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-
-
-
-## Site Status 
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/42e8c06f-c2dd-4232-8ec6-eb06cf4d5de9/deploy-status)](https://app.netlify.com/sites/devon-bookmark-app/deploys)
-
-Link to Demo-Website: https://devon-bookmark-app.netlify.app/
