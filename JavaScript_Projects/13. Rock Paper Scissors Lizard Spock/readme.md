@@ -1,5 +1,14 @@
 # Rock Paper Scissors Lizard Spock
 
+## Site Status 
+
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a4524b09-aba1-4fe5-8eda-f4e32cb1bc56/deploy-status)](https://app.netlify.com/sites/devon-rock-paper-scissors/deploys)
+
+[Link to Demo-Website](https://devon-rock-paper-scissors.netlify.app/)
+
+
 ## Thoughts
 
 <hr>
@@ -60,12 +69,5 @@ This project includes the `confetti.js` library for the confetti animation effec
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-
-
-
-## Site Status 🎯
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-
-Link to Demo-Website: https://devon-countdown-app.netlify.app/
 
 
