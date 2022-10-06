@@ -1,5 +1,6 @@
 # NASA API Pictures
 
+
 ## Site Status 
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
@@ -7,6 +8,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c6968d63-6b5e-4a6d-acb4-9be6252a811e/deploy-status)](https://app.netlify.com/sites/devon-nasa-pic-of-the-day/deploys)
 
 [Link to Demo-Website](https://devon-nasa-pic-of-the-day.netlify.app/)
+
 
 ## Thoughts
 
