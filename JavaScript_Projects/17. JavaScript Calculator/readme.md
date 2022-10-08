@@ -1,5 +1,14 @@
 # Calculator Website
 
+
+## Site Status 
+
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/69a86cb4-342b-494d-ad2f-e30e3657a715/deploy-status)](https://app.netlify.com/sites/devon-javascript-calculator/deploys)
+
+[Link to Demo-Website](https://devon-javascript-calculator.netlify.app/)
+
 ## Thoughts
 
 This project holds a special place in my heart as it allowed me to overcome a challenge I faced back in high school. In those days, I took a Java programming course, and building a calculator was the very reason I dropped out. However, I now realize that my younger self was simply inexperienced, and with newfound knowledge and determination, I have successfully built this calculator website.
@@ -29,9 +38,8 @@ Although this project is simple in its current state, there are several exciting
 <li>Accessibility features: Implement accessibility enhancements, such as support for screen readers and keyboard navigation, to ensure the calculator is inclusive and usable by all users.
 
 
-
-
 ## Tech Stack
+
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/sahiljamwal)
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
@@ -39,8 +47,3 @@ Although this project is simple in its current state, there are several exciting
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 
-
-## Site Status 🎯
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-
-Link to Demo-Website: https://devon-countdown-app.netlify.app/
