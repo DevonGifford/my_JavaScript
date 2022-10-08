@@ -1,6 +1,6 @@
 # Kanban Board
 
-## Site Status 🎯
+## Site Status 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ac9d19b4-4d48-48b1-8c7c-41d217ff4180/deploy-status)](https://app.netlify.com/sites/devon-kanban-board/deploys)
@@ -25,7 +25,4 @@ While there is potential for expanding this project into a fully-fledged Trello-
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-
-
-
 

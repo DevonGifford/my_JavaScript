@@ -1,5 +1,12 @@
 # Math Sprint Game
 
+## Site Status 
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/34f18c15-a90b-4ea3-b5fe-d2116e9cbabb/deploy-status)](https://app.netlify.com/sites/devon-math-sprint-game/deploys)
+
+[Link to Demo-Website](https://devon-math-sprint-game.netlify.app/)
+
 ## Thoughts
 
 The Math Quiz Game is a simple web application that tests your math skills in an interactive and engaging way. Each page of the game dynamically displays different math problems, providing a seamless user experience.
@@ -17,7 +24,3 @@ While this project focuses on basic math problems, I have a vision of creating s
 
 
 
-## Site Status 🎯
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-
-Link to Demo-Website: https://devon-countdown-app.netlify.app/
