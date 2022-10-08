@@ -1,5 +1,12 @@
 # Splash Page
 
+## Site Status
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6dd8776f-797b-4b90-9dd8-43455d28cebc/deploy-status)](https://app.netlify.com/sites/devon-splash-page-figma/deploys)
+
+[Link to Demo-Website](https://devon-splash-page-figma.netlify.app/)
+
 ## Thoughts
 
 This project taught me the value of using design tools like Figma. By creating the visual styles and layouts in Figma beforehand, the CSS for this project came together quickly and efficiently.
@@ -21,9 +28,6 @@ I look forward to further leveraging my newfound knowledge of Figma and applying
 
 
 
-## Site Status 🎯
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-Link to Demo-Website: https://devon-countdown-app.netlify.app/
 
 
