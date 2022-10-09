@@ -1,4 +1,13 @@
-# Paint Clone!
+# Paint Clone
+
+## Site Status
+
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3a7e627e-0a0f-4b81-9f45-e616d07c1cf8/deploy-status)](https://app.netlify.com/sites/devon-paint-clone/deploys)
+
+[Link to Demo-Website](https://devon-paint-clone.netlify.app/)
+
 
 ## Thoughts
 
@@ -23,10 +32,5 @@ Feel free to try it out and let your creativity flow!
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 
-
-## Site Status 🎯
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-
-Link to Demo-Website: https://devon-countdown-app.netlify.app/
 
 
