@@ -1,1 +1,1 @@
-This is just where I am going to keep all the exercises I have completed while taking the ZTM Web Developer Bootcamp.
+This is a repo for all the little Vanilla JavaScript projects I have in my portfolio.  
