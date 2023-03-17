@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <!-- This is how we write comments - press ctrl + / -->
+        <form method="GET">
+            First Name('s'):     <input type="text" name="Firstname"><br>
+            Surname:             <input type="text" name="Surname"><br>
+            Email:               <input type="email" name="Email"><br>
+            Password:            <input type="password" name="Password" minlength="8"><br>
+            Birthday:            <input type="date" name="Birthday"><br>
+            Gender:              <br>
+            <input type="radio" name="gender">Male <br>
+            <input type="radio" name="gender">Female <br>
+            Pets:                <br>
+            <input type="checkbox" name="Cat"> Cat <br>
+            <input type="checkbox" name="Dog"> Dog <br>
+            <input type="checkbox" name="Other"> Other <br>
+            Cars:                <br>
+            <select>
+                <option value="Bugatti" name="Bugatti">Bugatti</option>
+                <option value="Lambo" name="Lambo">Lambo</option>
+            </select><br>
+
+
+            <input type="submit" value="Register Now!">
+            <input type="reset">
+    </form>
+    </body>
+</html>
+
+<!-- output -->
+?
+Firstname=fake
+&Surname=faker
+&Email=faking%40fake
+&Password=fakefakefake
+&Birthday=1876-12-11
+&gender=on
+&Cat=on

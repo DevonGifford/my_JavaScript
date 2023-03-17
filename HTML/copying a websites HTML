@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#5333ED">
+
+<!--
+<pre>
+                                                ..                   ▄■▀▀▀▀■
+ ▄██████▄                                   –▀▀▀▀▀ ▀▀––            .▀        ▀
+█▀  ▀████ ░  ████ ███▄ ░███▄ █████▄   ▄█████████▄▄███████████▄ ▄██████▄ ▄██▄ ░
+█    ████ ░ ████ ░████ ░█████ ░████ ░████▀▀▀▀██▀ ░  ████ ░   ████▀     ▀████ ░
+ ▀   █▓▓█ ░█▓▓█ ░ █▓▓█ ░█▓▓█ ░ █▓▓█ ░▓▓█▀ ░   ▀     █▓▓█ ░  █▓▓█ ░      █▓▓█ ░
+ . ┌─█▓▓█ █▓▓█ ░──█▒▒█─░█▒▒█─░─█▒▒█─░▀▒▒▒▒▒▒▒█▄──░──█▒▒█─░─█▒▒█ ░ ──────█▒▒█ ░
+   : █░░█ ░█░░█ ░ █░░█ ░█░░█ ░ █░░█ ░  ▀░░░░░░░█ ░  █░░█ ░ █░░█ ░       █░░█ ░
+   . █..█ ░ █..█ ░█..█ ░█..█ ░ █..█ ░     .  █..█ ░ █..█ ░  █..█ ░      █..█ ░
+   | █  █ ░  █  █ █  █ ░█  █ ░ █  █ ░  ▄▀     █  █ ░█  █▄ ░  █  █▄    ▄██  █ ░
+   └ ▀███ ░───████████ ░███▀ ░─████ ░ ██──────████ ░▀███▓▀ ░  ▀██████▀ ▀██▀ ░
+      ░░░░░      ▀███▀  ░░░░░░ ████ ░ ███▄  ▄████ ░   ░░░░      ░░░░░░   ░░
+           ▄                   ▀███ ░  ▀███████▀          .
+   ┌──────▀▀▀▀ ▀▀─────────────── ██ ──────────────────────▀▀▄▄▄  ▄▄▄──────┐
+   : ░                            ▀█▄    ▄                      ▀▀       ░ :
+   |                                ▀––▀                                   |
+   |        We're building a world-class hosting platform at Kinsta.       |
+   |                                                                       |
+   |        🌎 Remote             🧕 Diverse             💪 Kick-ass      |
+   |                                                                       |
+   |                                                                       |
+   |        https://kinsta.com/careers/                     Join us!       |
+   |                                                                       |
+   |                                                                       |
+   | ░                                                                   ░ |
+   └───────▀▀▀▀ ▀▀───────────────────────────────────────────▀▀ ▀▀─────────┘
+</pre>
+-->
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v17.1.2 (Yoast SEO v17.1) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>HTML vs HTML5: Learn the Crucial Differences Between Them</title>
+	<meta name="description" content="So what&#039;s the difference between HTML vs HTML5, exactly? If you&#039;re confused as to their similarities and differences, we break both down here" />
+	<link rel="canonical" href="https://kinsta.com/blog/html-vs-html5/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="HTML vs HTML5: Learn the Crucial Differences Between Them" />
+	<meta property="og:description" content="So what&#039;s the difference between HTML vs HTML5, exactly? If you&#039;re confused as to their similarities and differences, we break both down here" />
+	<meta property="og:url" content="https://kinsta.com/blog/html-vs-html5/" />
+	<meta property="og:site_name" content="Kinsta®" />
+	<meta property="article:publisher" content="https://www.facebook.com/kinstahosting" />
+	<meta property="article:author" content="http://www.facebook.com/digitalinkwell" />
+	<meta property="article:published_time" content="2021-03-22T09:31:02+00:00" />
+	<meta property="article:modified_time" content="2022-11-24T21:16:02+00:00" />
+	<meta property="og:image" content="https://kinsta.com/wp-content/uploads/2021/03/html-vs-html5.png" />
+	<meta property="og:image:width" content="1460" />
+	<meta property="og:image:height" content="730" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description" content="So what&#039;s the difference between HTML vs HTML5, exactly? If you&#039;re confused as to their similarities and differences, we break both down here" />
+	<meta name="twitter:image" content="https://kinsta.com/wp-content/uploads/2021/03/html-vs-html5.png" />
+	<meta name="twitter:creator" content="@digitalinkwell" />
+	<meta name="twitter:site" content="@kinsta" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Brenda Barron" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="13 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kinsta.com/#organization","name":"Kinsta","url":"https://kinsta.com/","sameAs":["https://www.facebook.com/kinstahosting","https://www.instagram.com/kinstahosting/","https://www.linkedin.com/company/kinsta/","https://www.youtube.com/c/Kinsta","https://www.pinterest.com/kinstahosting/","https://twitter.com/kinsta"],"logo":{"@type":"ImageObject","@id":"https://kinsta.com/#logo","inLanguage":"en-US","url":"https://kinsta.com/wp-content/uploads/2020/12/kinsta-logo.jpg","contentUrl":"https://kinsta.com/wp-content/uploads/2020/12/kinsta-logo.jpg","width":600,"height":60,"caption":"Kinsta"},"image":{"@id":"https://kinsta.com/#logo"}},{"@type":"WebSite","@id":"https://kinsta.com/#website","url":"https://kinsta.com/","name":"Kinsta\u00ae","description":"Fast, secure, premium hosting solutions","publisher":{"@id":"https://kinsta.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kinsta.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://kinsta.com/blog/html-vs-html5/#primaryimage","inLanguage":"en-US","url":"https://kinsta.com/wp-content/uploads/2021/03/html-vs-html5.png","contentUrl":"https://kinsta.com/wp-content/uploads/2021/03/html-vs-html5.png","width":1460,"height":730,"caption":"HTML vs HTML5, featured image, illustration."},{"@type":"WebPage","@id":"https://kinsta.com/blog/html-vs-html5/#webpage","url":"https://kinsta.com/blog/html-vs-html5/","name":"HTML vs HTML5: Learn the Crucial Differences Between Them","isPartOf":{"@id":"https://kinsta.com/#website"},"primaryImageOfPage":{"@id":"https://kinsta.com/blog/html-vs-html5/#primaryimage"},"datePublished":"2021-03-22T09:31:02+00:00","dateModified":"2022-11-24T21:16:02+00:00","description":"So what's the difference between HTML vs HTML5, exactly? If you're confused as to their similarities and differences, we break both down here","breadcrumb":{"@id":"https://kinsta.com/blog/html-vs-html5/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kinsta.com/blog/html-vs-html5/"]}]},{"@type":"BreadcrumbList","@id":"https://kinsta.com/blog/html-vs-html5/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kinsta.com/"},{"@type":"ListItem","position":2,"name":"Resource Center","item":"https://kinsta.com/resources/"},{"@type":"ListItem","position":3,"name":"Blog","item":"https://kinsta.com/blog/"},{"@type":"ListItem","position":4,"name":"Web Development Languages","item":"https://kinsta.com/topic/web-development-languages/"},{"@type":"ListItem","position":5,"name":"HTML vs HTML5: Learn the Crucial Differences Between Them"}]},{"@type":"Article","@id":"https://kinsta.com/blog/html-vs-html5/#article","isPartOf":{"@id":"https://kinsta.com/blog/html-vs-html5/#webpage"},"author":{"@id":"https://kinsta.com/#/schema/person/48409217098a515e1da68c40969dfe13"},"headline":"HTML vs HTML5: Learn the Crucial Differences Between Them","datePublished":"2021-03-22T09:31:02+00:00","dateModified":"2022-11-24T21:16:02+00:00","mainEntityOfPage":{"@id":"https://kinsta.com/blog/html-vs-html5/#webpage"},"wordCount":2555,"commentCount":3,"publisher":{"@id":"https://kinsta.com/#organization"},"image":{"@id":"https://kinsta.com/blog/html-vs-html5/#primaryimage"},"thumbnailUrl":"https://kinsta.com/wp-content/uploads/2021/03/html-vs-html5.png","keywords":["html","webdev"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://kinsta.com/blog/html-vs-html5/#respond"]}]},{"@type":"Person","@id":"https://kinsta.com/#/schema/person/48409217098a515e1da68c40969dfe13","name":"Brenda Barron","image":{"@type":"ImageObject","@id":"https://kinsta.com/#personlogo","inLanguage":"en-US","url":"https://kinsta.com/avatar/7d6c0925ce9699c74e82037f88b535de?s=96&d=mm&r=g","contentUrl":"https://kinsta.com/avatar/7d6c0925ce9699c74e82037f88b535de?s=96&d=mm&r=g","caption":"Brenda Barron"},"description":"Brenda Barron is a journalist and copywriter from California. She contributes to sites like WPMU DEV, Envato, and Torque.","sameAs":["http://www.thedigitalinkwell.com/","http://www.facebook.com/digitalinkwell","http://www.linkedin.com/in/digitalinkwell","https://twitter.com/digitalinkwell"],"url":"https://kinsta.com/blog/author/brendabarron/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Kinsta® &raquo; Feed" href="https://kinsta.com/feed/" />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--purple: #5333ed;--wp--preset--color--blue: #150773;--wp--preset--color--dark-blue: #0c022f;--wp--preset--color--turquoise: #2cd4d9;--wp--preset--color--gray: #e1eaf8;--wp--preset--color--offwhite: #fafafa;--wp--preset--color--success: #30b00f;--wp--preset--color--error: #e43c3c;--wp--preset--color--primary: var(--color-primary);--wp--preset--color--secondary: var(--color-secondary);--wp--preset--color--tertiary: var(--color-tertiary);--wp--preset--color--background: var(--color-background);--wp--preset--color--editor-highlight: red;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--hero: linear-gradient( -30deg, rgb(0,0,77) 0%, rgb(83,51,237) 49%, rgb(44,212,217) 100%);--wp--preset--gradient--dark-purple: linear-gradient(94.56deg, #2C1B67 30.9%, #190C47 72.6%, #0C022F 86.84%);--wp--preset--gradient--multi-service: radial-gradient(circle at 80% 100%, #2cd4d9 0%, transparent 50%), radial-gradient(circle at 20% 100%, #ee7a0f 0%, transparent 50%), radial-gradient(circle at 50% 0%, #d824c5 0%, transparent 50%), linear-gradient(#0E0A1B, #0E0A1B);--wp--preset--gradient--wp: radial-gradient(circle at 80% 100%, #2cd4d9 0%, #0E0A1B 50%);--wp--preset--gradient--app: radial-gradient(circle at 80% 100%, #D824C5 0%, #0E0A1B 50%);--wp--preset--gradient--db: radial-gradient(circle at 80% 100%, #1F904C 0%, #0E0A1B 50%);--wp--preset--gradient--wp-light: radial-gradient(circle at 80% 100%, #2cd4d9 0%, #f3f3f6 50%);--wp--preset--gradient--app-light: radial-gradient(circle at 80% 100%, #D824C5 0%, #f3f3f6 50%);--wp--preset--gradient--db-light: radial-gradient(circle at 80% 100%, #1F904C 0%, #f3f3f6 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 1.5rem;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--smallest: 0.75rem;--wp--preset--font-size--smaller: 0.875rem;--wp--preset--font-size--normal: 1.125rem;--wp--preset--font-size--larger: 2.125rem;--wp--preset--font-size--largest: 3.5rem;--wp--preset--font-family--body: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;--wp--preset--font-family--heading: 'Brandon Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;--wp--preset--spacing--20: 1rem;--wp--preset--spacing--30: 2rem;--wp--preset--spacing--40: 4.25rem;--wp--preset--spacing--50: 8.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--spacing--10: 0.5rem;}body { margin: 0;--wp--style--global--content-size: 41rem;--wp--style--global--wide-size: 71rem; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-purple-color{color: var(--wp--preset--color--purple) !important;}.has-blue-color{color: var(--wp--preset--color--blue) !important;}.has-dark-blue-color{color: var(--wp--preset--color--dark-blue) !important;}.has-turquoise-color{color: var(--wp--preset--color--turquoise) !important;}.has-gray-color{color: var(--wp--preset--color--gray) !important;}.has-offwhite-color{color: var(--wp--preset--color--offwhite) !important;}.has-success-color{color: var(--wp--preset--color--success) !important;}.has-error-color{color: var(--wp--preset--color--error) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-editor-highlight-color{color: var(--wp--preset--color--editor-highlight) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-purple-background-color{background-color: var(--wp--preset--color--purple) !important;}.has-blue-background-color{background-color: var(--wp--preset--color--blue) !important;}.has-dark-blue-background-color{background-color: var(--wp--preset--color--dark-blue) !important;}.has-turquoise-background-color{background-color: var(--wp--preset--color--turquoise) !important;}.has-gray-background-color{background-color: var(--wp--preset--color--gray) !important;}.has-offwhite-background-color{background-color: var(--wp--preset--color--offwhite) !important;}.has-success-background-color{background-color: var(--wp--preset--color--success) !important;}.has-error-background-color{background-color: var(--wp--preset--color--error) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-editor-highlight-background-color{background-color: var(--wp--preset--color--editor-highlight) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-purple-border-color{border-color: var(--wp--preset--color--purple) !important;}.has-blue-border-color{border-color: var(--wp--preset--color--blue) !important;}.has-dark-blue-border-color{border-color: var(--wp--preset--color--dark-blue) !important;}.has-turquoise-border-color{border-color: var(--wp--preset--color--turquoise) !important;}.has-gray-border-color{border-color: var(--wp--preset--color--gray) !important;}.has-offwhite-border-color{border-color: var(--wp--preset--color--offwhite) !important;}.has-success-border-color{border-color: var(--wp--preset--color--success) !important;}.has-error-border-color{border-color: var(--wp--preset--color--error) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-editor-highlight-border-color{border-color: var(--wp--preset--color--editor-highlight) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-hero-gradient-background{background: var(--wp--preset--gradient--hero) !important;}.has-dark-purple-gradient-background{background: var(--wp--preset--gradient--dark-purple) !important;}.has-multi-service-gradient-background{background: var(--wp--preset--gradient--multi-service) !important;}.has-wp-gradient-background{background: var(--wp--preset--gradient--wp) !important;}.has-app-gradient-background{background: var(--wp--preset--gradient--app) !important;}.has-db-gradient-background{background: var(--wp--preset--gradient--db) !important;}.has-wp-light-gradient-background{background: var(--wp--preset--gradient--wp-light) !important;}.has-app-light-gradient-background{background: var(--wp--preset--gradient--app-light) !important;}.has-db-light-gradient-background{background: var(--wp--preset--gradient--db-light) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-smallest-font-size{font-size: var(--wp--preset--font-size--smallest) !important;}.has-smaller-font-size{font-size: var(--wp--preset--font-size--smaller) !important;}.has-normal-font-size{font-size: var(--wp--preset--font-size--normal) !important;}.has-larger-font-size{font-size: var(--wp--preset--font-size--larger) !important;}.has-largest-font-size{font-size: var(--wp--preset--font-size--largest) !important;}.has-body-font-family{font-family: var(--wp--preset--font-family--body) !important;}.has-heading-font-family{font-family: var(--wp--preset--font-family--heading) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='kinsta-css-style-css' href='https://kinsta.com/wp-content/themes/kinsta/dist/style.css?ver=3e4cb3ebf8d57bed57d8' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://kinsta.com/wp-json/" /><link rel="alternate" type="application/json" href="https://kinsta.com/wp-json/wp/v2/posts/91142" /><link rel='shortlink' href='https://kinsta.com/?p=91142' />
+<link rel="alternate" type="application/json+oembed" href="https://kinsta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkinsta.com%2Fblog%2Fhtml-vs-html5%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://kinsta.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkinsta.com%2Fblog%2Fhtml-vs-html5%2F&#038;format=xml" />
+
+<link rel="alternate" href="https://kinsta.com/blog/html-vs-html5/" hreflang="x-default" />
+<link rel="alternate" href="https://kinsta.com/blog/html-vs-html5/" hreflang="en" />
+<link rel="alternate" href="https://kinsta.com/it/blog/html-e-html5/" hreflang="it" />
+<link rel="alternate" href="https://kinsta.com/es/blog/html-vs-html5/" hreflang="es" />
+<link rel="alternate" href="https://kinsta.com/pt/blog/html-vs-html5/" hreflang="pt" />
+<link rel="alternate" href="https://kinsta.com/fr/blog/html-vs-html5/" hreflang="fr" />
+<link rel="alternate" href="https://kinsta.com/de/blog/html-vs-html5/" hreflang="de" />
+<link rel="alternate" href="https://kinsta.com/nl/blog/html-vs-html5/" hreflang="nl" />
+<link rel="alternate" href="https://kinsta.com/se/blog/html-vs-html5/" hreflang="sv" />
+<script>window.$kinsta = {"env":"production","maintenanceMode":false,"siteURL":"https:\/\/kinsta.com\/","siteCode":"en","languageCode":"en","restBaseURL":"https:\/\/kinsta.com\/wp-json\/","adminAjaxURL":"https:\/\/kinsta.com\/wp-admin\/admin-ajax.php","themeDirURL":"https:\/\/kinsta.com\/wp-content\/themes\/kinsta\/","uploadDirBaseURL":"https:\/\/kinsta.com\/wp-content\/uploads\/","postURL":{"\/legal\/privacy-policy":"https:\/\/kinsta.com\/legal\/privacy-policy\/","\/legal\/terms-service":"https:\/\/kinsta.com\/legal\/terms-service\/","\/plans":"https:\/\/kinsta.com\/plans\/","\/signup":"https:\/\/kinsta.com\/signup\/","\/contact-us":"https:\/\/kinsta.com\/contact-us\/","\/pricing-calculator":"https:\/\/kinsta.com\/pricing-calculator\/","\/wordpress-hosting\/pricing":"https:\/\/kinsta.com\/wordpress-hosting\/pricing\/"},"stripe":{"publicKey":"pk_live_r16EiSaRITiPDMKQjLeoOviT"},"isSingular":true,"wpPost":{"id":91142,"title":"HTML vs HTML5: Learn the Crucial Differences Between Them","type":"post"}}</script>
+            <script type="application/ld+json" id="wl-jsonld">[{"@context":"http:\/\/schema.org","@id":"http:\/\/data.wordlift.io\/wl0150038\/post\/html_vs-_html5","@type":"Article","description":"HTML vs HTML5. What\u2019s the big difference? If you\u2019re looking to get into frontend development or work with code in WordPress, you need to know the difference. It can be especially confusing because some people may use the two terms interchangeably, but they're technically two different things\u2014though they're also related. Let\u2019s go over the differences...","mainEntityOfPage":"https:\/\/kinsta.com\/blog\/html-vs-html5\/","image":[{"@type":"ImageObject","url":"https:\/\/kinsta.com\/wp-content\/uploads\/2021\/03\/html-vs-html5-1200x675.png","width":1200,"height":675},{"@type":"ImageObject","url":"https:\/\/kinsta.com\/wp-content\/uploads\/2021\/03\/html-vs-html5.png","width":1460,"height":730}],"headline":"HTML vs HTML5: Learn the Crucial Differences Between Them","datePublished":"2021-03-22T10:31:02+01:00","dateModified":"2022-11-24T22:16:02+01:00","wordCount":2450,"keywords":"html,webdev","articleSection":["Uncategorized"],"commentCount":"3","inLanguage":"en-US","publisher":{"@type":"Organization","@id":"http:\/\/data.wordlift.io\/wl0150038\/entity\/kinsta","name":"Kinsta","sameAs":["https:\/\/www.google.com\/maps?cid=2028540986187945162","https:\/\/opencorporates.com\/companies\/us_de\/7460224.rdf","https:\/\/opencorporates.com\/companies\/gb\/09030972.rdf","https:\/\/g.co\/kg\/g\/11h_cs1m3s","https:\/\/www.linkedin.com\/company\/kinsta\/","https:\/\/profiles.wordpress.org\/kinstahosting\/","https:\/\/www.facebook.com\/kinstahosting","https:\/\/twitter.com\/kinsta","https:\/\/www.instagram.com\/kinstahosting\/","https:\/\/www.youtube.com\/kinsta"],"logo":{"@type":"ImageObject","url":"https:\/\/kinsta.com\/wp-content\/uploads\/2020\/12\/kinsta-logo--publisher-logo.jpg","width":600,"height":60}},"mentions":[{"@id":"http:\/\/data.wordlift.io\/wl0150038\/knowledgebase\/what_is_wordpress__explained_for_beginners"},{"@id":"http:\/\/data.wordlift.io\/wl0150038\/post_tag\/webdev"},{"@id":"http:\/\/data.wordlift.io\/wl0150038\/term\/topic\/web_development_languages"},{"@id":"http:\/\/data.wordlift.io\/wl0150038\/term\/topic\/web_development_tools"}],"author":{"@id":"http:\/\/data.wordlift.io\/wl0150038\/entity\/brenda_barron"}},{"@context":"http:\/\/schema.org","@id":"http:\/\/data.wordlift.io\/wl0150038\/knowledgebase\/what_is_wordpress__explained_for_beginners","@type":["Thing"],"mainEntityOfPage":"https:\/\/kinsta.com\/knowledgebase\/what-is-wordpress\/","image":[{"@type":"ImageObject","url":"https:\/\/kinsta.com\/wp-content\/uploads\/2018\/02\/what-is-wordpress-1200x675.jpg","width":1200,"height":675},{"@type":"ImageObject","url":"https:\/\/kinsta.com\/wp-content\/uploads\/2018\/02\/what-is-wordpress.jpg","width":1460,"height":730}],"name":"What Is WordPress? Explained for Beginners","sameAs":["http:\/\/www.wikidata.org\/entity\/Q13166","http:\/\/dbpedia.org\/resource\/WordPress","http:\/\/rdf.freebase.com\/ns\/m.02vtpl"],"url":"https:\/\/kinsta.com\/knowledgebase\/what-is-wordpress\/"},{"@context":"http:\/\/schema.org","@id":"http:\/\/data.wordlift.io\/wl0150038\/entity\/brenda_barron","@type":"Person","description":"Brenda Barron is a journalist and copywriter from California. She contributes to sites like WPMU DEV, Envato, and Torque.","name":"Brenda Barron","sameAs":"https:\/\/twitter.com\/digitalinkwell"},{"@context":"http:\/\/schema.org","name":"webdev","@type":["Thing"],"@id":"http:\/\/data.wordlift.io\/wl0150038\/post_tag\/webdev","description":"","url":["https:\/\/kinsta.com\/blog\/tag\/webdev\/"],"mainEntityOfPage":"https:\/\/kinsta.com\/blog\/tag\/webdev\/"},{"@context":"http:\/\/schema.org","name":"Web Development Languages","@type":["Thing"],"@id":"http:\/\/data.wordlift.io\/wl0150038\/term\/topic\/web_development_languages","description":"","mainEntityOfPage":"https:\/\/kinsta.com\/topic\/web-development-languages\/"},{"@context":"http:\/\/schema.org","name":"Web Development Tools","@type":["Thing"],"@id":"http:\/\/data.wordlift.io\/wl0150038\/term\/topic\/web_development_tools","description":"","mainEntityOfPage":"https:\/\/kinsta.com\/topic\/web-development-tools\/"}]</script><link rel="preload" href="https://kinsta.com/wp-content/themes/kinsta/fonts/BrandonText-light.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://kinsta.com/wp-content/themes/kinsta/fonts/BrandonText-Black.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://kinsta.com/wp-content/themes/kinsta/fonts/BrandonText-Medium.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://kinsta.com/wp-content/themes/kinsta/fonts/roboto/Roboto-300.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://kinsta.com/wp-content/themes/kinsta/fonts/roboto/Roboto-regular.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://kinsta.com/wp-content/themes/kinsta/fonts/roboto/Roboto-500.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://kinsta.com/wp-content/themes/kinsta/fonts/roboto/Roboto-700.woff2" as="font" type="font/woff2" crossorigin><link rel="icon" href="https://kinsta.com/wp-content/uploads/2023/03/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://kinsta.com/wp-content/uploads/2023/03/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://kinsta.com/wp-content/uploads/2023/03/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://kinsta.com/wp-content/uploads/2023/03/cropped-favicon-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			li code,
+p code,
+.wp-block-code,
+.wp-block-kinsta-notice,
+.wp-block-kinsta-table-of-contents,
+.share-static
+{
+	background-color: #f3f3f6;
+}
+
+.related-posts {
+	background-color: #fafafa;
+}
+
+li code,
+p code {
+	border-color: #f3f3f6;
+}		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-91142 single-format-standard wp-embed-responsive object-91142">
+
+<a class="skip-to-content" href="#main">
+  Skip to content</a>
+
+<div  id="kinsta-global-banner" class="kinsta-global-banner kinsta-global-banner--link is-theme-default">
+            <p>
+            <a  href="https://kinsta.com/application-hosting/">
+                Test a deployment on our modern App Hosting. Start your free trial today.            </a>
+        </p>
+    </div>
+
+<script>
+    if (
+        typeof window.localStorage !== "undefined"
+        && window.localStorage.getItem("kinstaGlobalBannerDismissed") === "918e22b60bfd811d37f48695cb3bb1c1"
+    ) {
+        document.getElementById("kinsta-global-banner").remove();
+    }
+</script>
+
+
+<header id="nav" class="site-menu site-menu--theme-default">
+    <div class="site-menu__inner">
+        <a href="https://kinsta.com/" class="site-menu__logo" rel="home">
+            <svg  class="icon icon--logo" aria-hidden="true" focusable="false" title="Kinsta®"><use xlink:href="https://kinsta.com/wp-content/themes/kinsta/dist/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#logo" /></svg><span class="screen-reader-text">Kinsta®</span>        </a>
+
+        <a  href="#nav" id="nav-toggle" class="site-menu__nav__toggle" aria-label="Hamburger menu" aria-haspopup="true" aria-expanded="false">
+            Navigation        </a>
+
+        <nav class="site-menu__nav" aria-label="Main menu">
+    <div class="megamenu">
+    <div
+        id="megamenu__level-2__inner__backgroundFx-primary"
+        class="megamenu__level-2__inner__backgroundFx megamenu__level-2__inner__backgroundFx--primary"
+        style="width: 0px;left: 180px;"
+    >
+        <div class="megamenu__level-2__inner__backgroundFx-child"></div>
+    </div>
+    <ul class="megamenu__level-1">
+                                <li class="megamenu__level-1__li megamenu__level-1__li--has-children megamenu__level-1__li--no-third-level">
+                                <a
+                     id="megamenu-item-1" tabindex="0" href="#megamenu-item-1__child" class="megamenu__level-1__item megamenu__level-1__item--has-children js-megamenu-toggle-button"                    onmouseenter="backgroundAnimate(event, 'megamenu__level-2__inner__backgroundFx-primary', 1)"
+                >
+                    <span class="megamenu__level-1__item__title">
+                        Applications                    </span>
+                </a>
+                                    
+<div class="megamenu__level-2 megamenu__level-2--no-third-level" id="megamenu-item-1__child">
+    <div class="megamenu__level-2__mobile-label megamenu__level-3__item-title ml--30 mt--10">
+        Applications    </div>
+    <div class="megamenu__level-2__inner">
+        <ul class="megamenu__level-2__ul " onmouseleave='backgroundHide("megamenu__level-2__inner__backgroundFx-megamenu-item-1__child")'>
+            <div
+                id="megamenu__level-2__inner__backgroundFx-megamenu-item-1__child"
+                class="megamenu__level-2__inner__backgroundFx"
+            >
+                <div class="megamenu__level-2__inner__backgroundFx-child"></div>
+            </div>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-10" tabindex="0" href="https://kinsta.com/application-hosting/" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-1__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-1__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Features                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Deploy apps in minutes                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-11" tabindex="0" href="https://kinsta.com/application-hosting/pricing/" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-1__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-1__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Pricing                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Transparent, usage-based pricing                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-12" tabindex="0" href="https://kinsta.com/docs/application-hosting/" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-1__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-1__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Docs                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Quick starts and feature guides                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                    </ul>
+
+            </div>
+</div>
+                            </li>
+                                <li class="megamenu__level-1__li megamenu__level-1__li--has-children megamenu__level-1__li--no-third-level">
+                                <a
+                     id="megamenu-item-2" tabindex="0" href="#megamenu-item-2__child" class="megamenu__level-1__item megamenu__level-1__item--has-children js-megamenu-toggle-button"                    onmouseenter="backgroundAnimate(event, 'megamenu__level-2__inner__backgroundFx-primary', 1)"
+                >
+                    <span class="megamenu__level-1__item__title">
+                        Databases                    </span>
+                </a>
+                                    
+<div class="megamenu__level-2 megamenu__level-2--no-third-level" id="megamenu-item-2__child">
+    <div class="megamenu__level-2__mobile-label megamenu__level-3__item-title ml--30 mt--10">
+        Databases    </div>
+    <div class="megamenu__level-2__inner">
+        <ul class="megamenu__level-2__ul " onmouseleave='backgroundHide("megamenu__level-2__inner__backgroundFx-megamenu-item-2__child")'>
+            <div
+                id="megamenu__level-2__inner__backgroundFx-megamenu-item-2__child"
+                class="megamenu__level-2__inner__backgroundFx"
+            >
+                <div class="megamenu__level-2__inner__backgroundFx-child"></div>
+            </div>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-13" tabindex="0" href="https://kinsta.com/database-hosting/" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-2__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-2__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Features                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Set up in minutes                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-14" tabindex="0" href="https://kinsta.com/database-hosting/pricing/" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-2__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-2__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Pricing                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Transparent, usage-based pricing                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-15" tabindex="0" href="https://kinsta.com/docs/database-hosting/" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-2__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-2__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Docs                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Get started and feature guides                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                    </ul>
+
+            </div>
+</div>
+                            </li>
+                                <li class="megamenu__level-1__li megamenu__level-1__li--has-children megamenu__level-1__li--no-third-level">
+                                <a
+                     id="megamenu-item-3" tabindex="0" href="#megamenu-item-3__child" class="megamenu__level-1__item megamenu__level-1__item--has-children js-megamenu-toggle-button"                    onmouseenter="backgroundAnimate(event, 'megamenu__level-2__inner__backgroundFx-primary', 1)"
+                >
+                    <span class="megamenu__level-1__item__title">
+                        WordPress sites                    </span>
+                </a>
+                                    
+<div class="megamenu__level-2 megamenu__level-2--no-third-level megamenu__level-2--special-size" id="megamenu-item-3__child">
+    <div class="megamenu__level-2__mobile-label megamenu__level-3__item-title ml--30 mt--10">
+        WordPress sites    </div>
+    <div class="megamenu__level-2__inner">
+        <ul class="megamenu__level-2__ul " onmouseleave='backgroundHide("megamenu__level-2__inner__backgroundFx-megamenu-item-3__child")'>
+            <div
+                id="megamenu__level-2__inner__backgroundFx-megamenu-item-3__child"
+                class="megamenu__level-2__inner__backgroundFx"
+            >
+                <div class="megamenu__level-2__inner__backgroundFx-child"></div>
+            </div>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-16" tabindex="0" href="https://kinsta.com/wordpress-hosting/" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-3__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-3__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Features                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Better, faster Managed WordPress Hosting                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-17" tabindex="0" href="https://kinsta.com/wordpress-hosting/pricing/" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-3__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-3__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Pricing                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Backed by a 30-day money-back guarantee                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-18" tabindex="0" href="https://kinsta.com/docs/wordpress-hosting/" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-3__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-3__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Docs                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Get started, migrations, and feature guides                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                    </ul>
+
+                    <div class="row width--100 row__break-column" style="padding: 16px;">
+                <div class="col-md-6 col-xs-12 pl--0 pr--0">
+                    <h4 class="megamenu__level-3__item-subtitle mt--6" tabindex="-1">
+                        Solutions                    </h4>
+                    <ul class="megamenu__level-3__section__items mt--10">
+                        <li>
+                            <a class="megamenu__level-3__item" href=https://kinsta.com/enterprise-wordpress-hosting/>
+                                Enterprise                            </a>
+                        </li>
+
+                        <li>
+                            <a class="megamenu__level-3__item" href=https://kinsta.com/wordpress-hosting-agencies/>
+                                Agency                            </a>
+                        </li>
+
+                        <li>
+                            <a class="megamenu__level-3__item" href=https://kinsta.com/woocommerce-hosting/>
+                                WooCommerce                            </a>
+                        </li>
+
+                        <li>
+                            <a class="megamenu__level-3__item" href=https://kinsta.com/small-business-hosting/>
+                                Small Businesses                            </a>
+                        </li>
+
+                        <li>
+                            <a class="megamenu__level-3__item" href=https://kinsta.com/web-hosting-for-nonprofits/>
+                                Non-Profit                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h4 class="megamenu__level-3__item-subtitle mt--6" tabindex="-1">
+                        Benefits                    </h4>
+                    <ul class="megamenu__level-3__section__items mt--10">
+                        <li>
+                            <a class="megamenu__level-3__item" href=https://kinsta.com/wordpress-migration/>
+                                Free Migration                            </a>
+                        </li>
+
+                        <li>
+                            <a class="megamenu__level-3__item" href=https://kinsta.com/cloudflare-integration/>
+                                Cloudflare Integration                            </a>
+                        </li>
+
+                        <li>
+                            <a class="megamenu__level-3__item" href=https://kinsta.com/add-ons/>
+                                Add-Ons                            </a>
+                        </li>
+
+                        <li>
+                            <a class="megamenu__level-3__item" href=https://kinsta.com/devkinsta/>
+                                DevKinsta                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+</div>
+                            </li>
+                                <li class="megamenu__level-1__li megamenu__level-1__li--no-third-level">
+                                <a
+                     id="megamenu-link-19" tabindex="0" href="https://kinsta.com/docs/" class="megamenu__level-1__item"                    onmouseenter="backgroundAnimate(event, 'megamenu__level-2__inner__backgroundFx-primary', 1)"
+                >
+                    <span class="megamenu__level-1__item__title">
+                        Docs                    </span>
+                </a>
+                            </li>
+                                <li class="megamenu__level-1__li megamenu__level-1__li--no-third-level">
+                                <a
+                     id="megamenu-link-20" tabindex="0" href="https://kinsta.com/pricing/" class="megamenu__level-1__item"                    onmouseenter="backgroundAnimate(event, 'megamenu__level-2__inner__backgroundFx-primary', 1)"
+                >
+                    <span class="megamenu__level-1__item__title">
+                        Pricing                    </span>
+                </a>
+                            </li>
+                                <li class="megamenu__level-1__li megamenu__level-1__li--has-children megamenu__level-1__li--no-third-level">
+                                <a
+                     id="megamenu-item-6" tabindex="0" href="#megamenu-item-6__child" class="megamenu__level-1__item megamenu__level-1__item--has-children js-megamenu-toggle-button"                    onmouseenter="backgroundAnimate(event, 'megamenu__level-2__inner__backgroundFx-primary', 1)"
+                >
+                    <span class="megamenu__level-1__item__title">
+                        Contact                    </span>
+                </a>
+                                    
+<div class="megamenu__level-2 megamenu__level-2--no-third-level megamenu__level-2--medium-size" id="megamenu-item-6__child">
+    <div class="megamenu__level-2__mobile-label megamenu__level-3__item-title ml--30 mt--10">
+        Contact    </div>
+    <div class="megamenu__level-2__inner">
+        <ul class="megamenu__level-2__ul width--100" onmouseleave='backgroundHide("megamenu__level-2__inner__backgroundFx-megamenu-item-6__child")'>
+            <div
+                id="megamenu__level-2__inner__backgroundFx-megamenu-item-6__child"
+                class="megamenu__level-2__inner__backgroundFx"
+            >
+                <div class="megamenu__level-2__inner__backgroundFx-child"></div>
+            </div>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-contact" tabindex="0" href="tel:+18886102915" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-6__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-6__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Talk to sales                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Call <b class="kinsta-tel " data-tel-apac="(+61) 1800 952 470" data-tel-emea="+44 808 2583 915">
+    +1 (888) 610-2915</b>
+ to find the best hosting for you.                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-21" tabindex="0" href="https://kinsta.com/schedule-demo/" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-6__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-6__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Request a live demo                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Get a personalized demo of our powerful dashboard and hosting features.                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-22" tabindex="0" href="https://kinsta.com/contact-us/" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-6__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-6__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Ask questions                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Tell us about your website or project. We'll get back to you in one business day.                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                                            <li class="megamenu__level-2__li">
+                    <div class="megamenu__level-2__li__container">
+                        <a  id="megamenu-box-23" tabindex="0" href="https://my.kinsta.com/?lang=en" class="megamenu__level-2__item" onmouseenter="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-6__child&quot;)" onfocus="backgroundAnimate(event, &quot;megamenu__level-2__inner__backgroundFx-megamenu-item-6__child&quot;)">
+                            <span class="megamenu__level-2__item__title">
+                                Get help from our support team                            </span>
+                                                                                        <span class="megamenu__level-2__item__description">
+                                    Talk with our experts by launching a chat in the MyKinsta dashboard.                                </span>
+                                                    </a>
+                    </div>
+                </li>
+                    </ul>
+
+            </div>
+</div>
+                            </li>
+            </ul>
+</div>
+</nav>
+
+                    <div class="site-menu__search" id="search-form-container">
+                <form class="site-menu__search__form" method='get' action='https://kinsta.com'>
+                    <label>
+                        <span class="screen-reader-text">Search</span>
+                        <input name='s' type='text' required='required' value='' placeholder='Search all Kinsta resources' />                    </label>
+                    <button type="submit" class="site-menu__search__icon">
+                        <span class="screen-reader-text">Submit search</span>
+                        <svg  class="icon icon--search" aria-hidden="true" focusable="false"><use xlink:href="https://kinsta.com/wp-content/themes/kinsta/dist/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#search" /></svg>                    </button>
+                </form>
+            </div>
+        
+                    <div class="site-menu__extras">
+                                                        <a  href="https://my.kinsta.com/login/?lang=en" class="site-menu__extras__item site-menu__hidden-small">
+                        Login                    </a>
+                                                        <a  href="https://kinsta.com/signup/?product_type=app-db" class="site-menu__extras__item button button--ghost--purple">
+                        Sign Up                    </a>
+                            </div>
+            </div>
+</header>
+
+<div class="site-menu-placeholder" id="site-menu-placeholder"></div>
+
+<main id="main">
+
+
+<article class="post-91142 post type-post status-publish format-standard has-post-thumbnail hentry tag-html tag-webdev topic-web-development-languages topic-web-development-tools wl_entity_type-article">
+	
+<div class="article-title container container--narrow">
+            
+    <nav  class="breadcrumbs breadcrumbs--only-last" aria-label="Breadcrumbs">
+        <ol>
+                                            <li  class="breadcrumbs__li">
+                                            <a  href="https://kinsta.com/" class="breadcrumbs__link">
+                            Home                        </a>
+                                    </li>
+                                            <li  class="breadcrumbs__li">
+                                            <a  href="https://kinsta.com/resources/" class="breadcrumbs__link">
+                            Resource Center                        </a>
+                                    </li>
+                                            <li  class="breadcrumbs__li">
+                                            <a  href="https://kinsta.com/blog/" class="breadcrumbs__link">
+                            Blog                        </a>
+                                    </li>
+                                            <li  class="breadcrumbs__li is-parent">
+                                            <a  href="https://kinsta.com/topic/web-development-languages/" class="breadcrumbs__link">
+                            Web Development Languages                        </a>
+                                    </li>
+                                            <li  class="breadcrumbs__li is-current">
+                                            <span class="breadcrumbs__link" aria-current="true">
+                            HTML vs HTML5: Learn the Crucial Differences Between Them                        </span>
+                                    </li>
+                    </ol>
+    </nav>
+    
+            <h1 class="article-title__title">
+            HTML vs HTML5: Learn the Crucial Differences Between Them        </h1>
+    
+    
+            <div class="article-title__meta">
+                            <a href="https://kinsta.com/blog/author/brendabarron/" title="Posts by Brenda Barron" rel="author">Brenda Barron</a>,
+                                        <time class="article-title__meta__date" datetime="2022-11-24T22:16:02+01:00">
+                    November 24, 2022                </time>
+                    </div>
+    
+    
+            <img width="1024" height="512" src="https://kinsta.com/wp-content/uploads/2021/03/html-vs-html5-1024x512.png" class="article-title__featured-image wp-post-image" alt="HTML vs HTML5, featured image, illustration." decoding="async" loading="eager" srcset="https://kinsta.com/wp-content/uploads/2021/03/html-vs-html5-1024x512.png 1024w, https://kinsta.com/wp-content/uploads/2021/03/html-vs-html5-300x150.png 300w, https://kinsta.com/wp-content/uploads/2021/03/html-vs-html5-768x384.png 768w, https://kinsta.com/wp-content/uploads/2021/03/html-vs-html5-360x180.png 360w, https://kinsta.com/wp-content/uploads/2021/03/html-vs-html5.png 1460w" sizes="(max-width: 1024px) 100vw, 1024px" />    </div>
+
+	    <div class="widget-share widget-share--horizontal">
+      <span class="widget-share__title">
+        <svg  class="icon icon--share" aria-hidden="true" focusable="false"><use xlink:href="https://kinsta.com/wp-content/themes/kinsta/dist/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#share" /></svg>                Shares      </span>
+      <style>body .novashare-buttons.novashare-floating .novashare-button-icon { width: 100%; }</style><div class='novashare-buttons novashare-floating novashare-no-print'><div class='novashare-buttons-wrapper'><a href='https://twitter.com/intent/tweet?text=HTML%20vs%20HTML5%3A%20Learn%20the%20Crucial%20Differences%20Between%20Them&url=https%3A%2F%2Fkinsta.com%2Fblog%2Fhtml-vs-html5%2F&via=kinsta' aria-label='Twitter' target='_blank' class='novashare-button twitter' rel='nofollow noopener noreferrer'><span class='novashare-button-wrapper novashare-button-block'><span class='novashare-button-icon novashare-button-block'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></span></span></a><a href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkinsta.com%2Fblog%2Fhtml-vs-html5%2F' aria-label='Facebook' target='_blank' class='novashare-button facebook' rel='nofollow noopener noreferrer'><span class='novashare-button-wrapper novashare-button-block'><span class='novashare-button-icon novashare-button-block'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></span></span></a><a href='https://www.linkedin.com/shareArticle?title=HTML%20vs%20HTML5%3A%20Learn%20the%20Crucial%20Differences%20Between%20Them&url=https%3A%2F%2Fkinsta.com%2Fblog%2Fhtml-vs-html5%2F&mini=true' aria-label='LinkedIn' target='_blank' class='novashare-button linkedin' rel='nofollow noopener noreferrer'><span class='novashare-button-wrapper novashare-button-block'><span class='novashare-button-icon novashare-button-block'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></span></span></a></div></div>    </div>
+    
+	<div class="container container--narrow container--noclear pb--60 user-content post-content mt--40 js-anchor-hashes" id="post-content-91142">
+		<p>HTML vs HTML5. What’s the big difference? If you’re looking to get into frontend development or work with <a href="https://kinsta.com/knowledgebase/edit-wordpress-code/">code in WordPress</a>, you need to know the difference. It can be especially confusing because some people may use the two terms interchangeably, but they’re technically two different things—though they’re also related.</p>
+<p>Let’s go over the differences between HTML vs HTML5, which is better, and what’s changed with the popular markup language’s biggest update.</p><div class="mb--50 mt--50" data-interface="DownloadPostForm"></div>
+<div></div><kinsta-auto-toc heading="Table of Contents" exclude="last" list-style="arrow" selector="h2" count-number="-1"></kinsta-auto-toc>
+<h2>What is HTML?</h2>
+<p>HTML stands for <strong>HyperText Markup Language</strong>. It makes up the web’s building blocks, and it’s likely the most commonly known <a href="https://kinsta.com/blog/best-programming-language-to-learn/">coding language</a> out there.</p>
+<p>HTML is the standard language used for web development. There are many <a href="https://kinsta.com/blog/web-development-tools/">web development tools</a> that you can use when you are working with HTML. It allows you to create the base structure of a webpage using small tags called markup tags. For instance, to italicize a piece of text, you can wrap it in HTML tags as such:</p>
+<pre><code class="language-html">&lt;i&gt;Italicized text.&lt;/i&gt;</code></pre>
+<figure id="attachment_91145" aria-describedby="caption-attachment-91145" style="width: 1023px" class="wp-caption alignnone"><img decoding="async" loading="lazy" class="size-full wp-image-91145" src="https://kinsta.com/wp-content/uploads/2021/03/html-tag-example.png" alt="HTML tag example" width="1023" height="214" srcset="https://kinsta.com/wp-content/uploads/2021/03/html-tag-example.png 1023w, https://kinsta.com/wp-content/uploads/2021/03/html-tag-example-300x63.png 300w, https://kinsta.com/wp-content/uploads/2021/03/html-tag-example-768x161.png 768w" sizes="(max-width: 1023px) 100vw, 1023px"><figcaption id="caption-attachment-91145" class="wp-caption-text">HTML tag example</figcaption></figure>
+<p>Much of HTML is similarly simple and human-readable, so even non-developers find it easy to work with. For how important it is to the World Wide Web, picking up HTML is shockingly easy.</p>
+<p>It’s impossible to make a website without using HTML. While there are <a href="https://kinsta.com/blog/wix-vs-wordpress/">website builders</a> which can let you design a site without touching any code, <a href="https://kinsta.com/blog/wordpress-page-builders/">WordPress included</a>, they’re still handling HTML code for you behind the scenes.</p>
+<p>So, if you want to become a web developer or dive deeper into tools like WordPress, you’ll naturally need to learn HTML.</p>
+<p>HTML is often paired with other languages such as <a href="https://kinsta.com/blog/wordpress-css/">CSS</a> and JavaScript to extend its functionality. CSS helps you style HTML by adding colors, layouts, and more, while JavaScript is a more traditional programming language that lets you add advanced features.</p>
+<p>While those two languages bundle well with HTML, they aren’t strictly necessary to create a website. HTML certainly is required, and that’s why it’s the most important web language.</p>
+<p><span><style>body a.novashare-ctt{display:block;background:#00abf0;margin:30px auto;padding:20px 20px 20px 15px;color:#fff;text-decoration:none!important;box-shadow:none!important;-webkit-box-shadow:none!important;-moz-box-shadow:none!important;border:none;border-left:5px solid #00abf0}body a.novashare-ctt:hover{color:#fff;border-left:5px solid #008cc4}body a.novashare-ctt:visited{color:#fff}body a.novashare-ctt *{pointer-events:none}body a.novashare-ctt .novashare-ctt-tweet{display:block;font-size:18px;line-height:27px;margin-bottom:10px}body a.novashare-ctt .novashare-ctt-cta-container{display:block;overflow:hidden}body a.novashare-ctt .novashare-ctt-cta{float:right}body a.novashare-ctt.novashare-ctt-cta-left .novashare-ctt-cta{float:left}body a.novashare-ctt .novashare-ctt-cta-text{font-size:16px;line-height:16px;vertical-align:middle}body a.novashare-ctt .novashare-ctt-cta-icon{margin-left:10px;display:inline-block;vertical-align:middle}body a.novashare-ctt .novashare-ctt-cta-icon svg{vertical-align:middle;height:18px}body a.novashare-ctt.novashare-ctt-simple{background:0 0;padding:10px 0 10px 20px;color:inherit}body a.novashare-ctt.novashare-ctt-simple-alt{background:#f9f9f9;padding:20px;color:#404040}body a.novashare-ctt.novashare-ctt-simple-alt:hover,body a.novashare-ctt.novashare-ctt-simple:hover{border-left:5px solid #008cc4}body a.novashare-ctt.novashare-ctt-simple .novashare-ctt-cta,body a.novashare-ctt.novashare-ctt-simple-alt .novashare-ctt-cta{color:#00abf0}body a.novashare-ctt.novashare-ctt-simple-alt:hover .novashare-ctt-cta,body a.novashare-ctt.novashare-ctt-simple:hover .novashare-ctt-cta{color:#008cc4}</style><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fkinsta.com%2Fblog%2Fhtml-vs-html5%2F&via=kinsta&text=They+may+look+similar+at+first+glance%2C+but+there+are+some+pretty+big+differences+between+HTML+%26amp%3B+HTML5+%F0%9F%91%80+See+what%27s+changed+in+the+popular+markup+language%E2%80%99s+biggest+update+right+here+%F0%9F%91%87&hashtags=HTML%2CWordPress" class="novashare-ctt novashare-ctt-cta-left" target="_blank" rel="nofollow noopener noreferrer"><span class="novashare-ctt-tweet">They may look similar at first glance, but there are some pretty big differences between HTML & HTML5 👀 See what's changed in the popular markup language’s biggest update right here 👇</span><span class="novashare-ctt-cta-container"><span class="novashare-ctt-cta"><span class="novashare-ctt-cta-text">Click to Tweet</span><span class="novashare-ctt-cta-icon"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></span></span></span></a></span><br>
+</p><div data-nosnippet><kinsta-advanced-cta language="en_US" type-int-post="91142" type-int-position="0"></kinsta-advanced-cta></div>
+
+<h2>What is HTML5?</h2>
+<figure id="attachment_92234" aria-describedby="caption-attachment-92234" style="width: 1100px" class="wp-caption aligncenter"><img decoding="async" loading="lazy" class="wp-image-92234 size-full" src="https://kinsta.com/wp-content/uploads/2021/03/HTML-5-Badge-Logo.png" alt="HTML5 Badge Logo" width="1100" height="600" srcset="https://kinsta.com/wp-content/uploads/2021/03/HTML-5-Badge-Logo.png 1100w, https://kinsta.com/wp-content/uploads/2021/03/HTML-5-Badge-Logo-300x164.png 300w, https://kinsta.com/wp-content/uploads/2021/03/HTML-5-Badge-Logo-1024x559.png 1024w, https://kinsta.com/wp-content/uploads/2021/03/HTML-5-Badge-Logo-768x419.png 768w" sizes="(max-width: 1100px) 100vw, 1100px"><figcaption id="caption-attachment-92234" class="wp-caption-text">HTML5 logo (Source: <a href="https://commons.wikimedia.org/wiki/File:HTML5_Badge.svg">W3C</a>)</figcaption></figure>
+<p>HTML5 is not a separate system, but rather the latest version of HTML technology. Its predecessor, HTML4, had its first and last update in December 1999. HTML5 is actually not very new itself, being released several years ago in 2014.</p>
+<p>So what’s the big difference? Why all the hype? While many of the markup tags remain unchanged (don’t fix what isn’t broken, after all), several of them have been simplified, so it’s vastly easier and faster to write code. It’s based on an entirely new standard, and its parsing is completely different, too.</p>
+<p>Unlike older versions of HTML, which allowed you to create primarily static sites that needed to be spiced up with CSS and JavaScript, HTML5 is much more dynamic and includes multimedia elements. It natively supports video and audio, and you can even make games or animations with it.</p>
+<p>In other words, HTML5 is fully capable of doing things you previously needed to do using old tools like JavaScript, Flash, or Silverlight. This means <a href="https://kinsta.com/blog/wordpress-security/">your site is more secure and less open to exploits</a> from attackers trying to get in.</p>
+<p>And while CSS and JavaScript are still definitely necessary to create a full-fledged website, you no longer need to rely on them to do anything dynamic at all.</p>
+<p>HTML5 is no longer just a website builder. It’s an entire application builder on its own.</p>
+<p>Rather than the next update coming out as “HTML6,” HTML5 is continually updated as a living standard evolving as the web needs. It’s the latest and greatest version of this long-lasting technology, and it’s going to be here for a long time to come.</p>
+<h2>HTML vs HTML5: Weighing the Differences</h2>
+<p>When most people talk about “HTML,” they’re referring to the technology as a whole, including its latest version: HTML5. While it’s very different in many ways, HTML5 is really just a polished update to the old standard.</p>
+<p>While HTML and HTML5 are part of the same system, the big update brought several enhancements to the old coding language, making it even more efficient. Here are just a few examples of what was added.<br>
+</p><div data-nosnippet><kinsta-advanced-cta language="en_US" type-int-post="91142" type-int-position="1"></kinsta-advanced-cta></div>
+
+<h3>Compatibility</h3>
+<p>When HTML5 first came out, compatibility was a big concern and a major reason many chose not to upgrade their site yet. If the browser didn’t know how to parse an HTML5 tag, it could result in broken or strange-looking pages.</p>
+<p>The opposite is true: websites written in the old HTML4 standards will often break in <a href="https://kinsta.com/browser-market-share/">modern browsers</a>, as browsers have long since dropped support for outdated functions. If you want to remain compatible with most people’s browsers, HTML5 is the way to go.</p>
+<p>While older versions of HTML do work well on browsers like Internet Explorer, these outdated versions are no longer supported or used by a majority of users. Most people will not need to code a website for such old browsers, so there’s no need to use HTML4.</p>
+<p>As you can see here, HTML5 and most of its functions are <a href="https://caniuse.com/?search=html5" target="_blank" rel="noopener noreferrer">supported</a> on all modern browsers. Its new tags are fully or partially supported in all but Internet Explorer versions 6–8 and Firefox 2, all of which are from the early 2000s and rarely see use today.</p>
+<figure id="attachment_91143" aria-describedby="caption-attachment-91143" style="width: 1442px" class="wp-caption alignnone"><img decoding="async" loading="lazy" class="wp-image-91143 size-full" src="https://kinsta.com/wp-content/uploads/2021/03/html5-browser-support.png" alt="Checking for HTML vs HTML5 browser support" width="1442" height="742" srcset="https://kinsta.com/wp-content/uploads/2021/03/html5-browser-support.png 1442w, https://kinsta.com/wp-content/uploads/2021/03/html5-browser-support-300x154.png 300w, https://kinsta.com/wp-content/uploads/2021/03/html5-browser-support-1024x527.png 1024w, https://kinsta.com/wp-content/uploads/2021/03/html5-browser-support-768x395.png 768w" sizes="(max-width: 1442px) 100vw, 1442px"><figcaption id="caption-attachment-91143" class="wp-caption-text">Checking for HTML vs HTML5 browser support</figcaption></figure>
+<p>While all modern browsers technically support HTML4, support for obsolete tags is spotty at best. You should avoid using outdated standards and switch to HTML5.</p>
+<h3>Multimedia Support</h3>
+<p>One of the biggest things HTML5 brings to the table is support for multimedia elements such as audio, video, <a href="https://kinsta.com/blog/image-file-types/#8-svg--scalable-vector-graphics">vector graphics</a>, animations, and games.</p>
+<p>In the old days of the Web, putting so much as a simple animation on your site would usually require using JavaScript, Flash, or some other technology. Now you can do it in HTML or CSS without having to open yourself up to any potential exploits.</p>
+<p>With <a href="https://www.w3schools.com/html/html5_video.asp" target="_blank" rel="noopener noreferrer">video</a> and <a href="https://www.w3schools.com/html/html5_audio.asp" target="_blank" rel="noopener noreferrer">audio</a>, embedding a player is as easy as dropping in a simple tag. There’s plenty of configuration you can do from there, like turning on autoplay or adding player controls.</p>
+<figure id="attachment_91146" aria-describedby="caption-attachment-91146" style="width: 900px" class="wp-caption alignnone"><img decoding="async" loading="lazy" class="size-full wp-image-91146" src="https://kinsta.com/wp-content/uploads/2021/03/html5-audio-player.png" alt="HTML5 Audio Player" width="900" height="215" srcset="https://kinsta.com/wp-content/uploads/2021/03/html5-audio-player.png 900w, https://kinsta.com/wp-content/uploads/2021/03/html5-audio-player-300x72.png 300w, https://kinsta.com/wp-content/uploads/2021/03/html5-audio-player-768x183.png 768w" sizes="(max-width: 900px) 100vw, 900px"><figcaption id="caption-attachment-91146" class="wp-caption-text">HTML5 Audio Player</figcaption></figure>
+<p>HTML5 also supports embedding <a href="https://kinsta.com/blog/what-is-an-svg-file/" target="_blank" rel="noopener noreferrer">SVG vector graphics</a>—images that can resize to any resolution without pixelation. SVGs are becoming increasingly popular for displaying graphics online since they stretch well to fill any screen size.</p>
+<p>Last, you can make full-fledged <a href="https://www.w3schools.com/graphics/game_intro.asp" target="_blank" rel="noopener noreferrer">video games</a> with HTML5, especially if you combine it with JavaScript. Many game creation tools even port to HTML5 and allow you to embed the result on your website.</p>
+<p>This multimedia support makes HTML5 the ideal candidate to replace many outdated technologies, including Java Web Start, Silverlight, and, most recently, <a href="https://www.theverge.com/2020/12/31/22208190/adobe-flash-is-dead" target="_blank" rel="noopener noreferrer">Flash</a>. Almost everything you can do with these systems can be done more simply and efficiently in HTML5.</p>
+<h3>SGML</h3>
+<p>The original HTML language (up until version 4) was based heavily upon the SGML standard or Standard Generalized Markup Language.</p><aside class="in-post-container"><link rel="stylesheet" href="https://kinsta.com/wp-content/themes/kinsta/dist/components/ctas/app-hosting-cta.css?ver=fcf79d9e0e325994bc31"><div class="box box--noshadow box--padding--0 has-offwhite-background-color app-hosting-cta">
+    <div class="app-hosting-cta__content">
+        <h3 class="mt--0">Deploy your application to Kinsta. Get started now with a free trial.</h3>
+                    <p class="has-small-font-size">Run your Node.js, Python, Go, PHP, Ruby, Java, and Scala apps, (or almost anything else if you use your own custom Dockerfiles), in three, easy steps!</p>
+                <a href="https://kinsta.com/application-hosting/" class="button button--purple app-hosting-cta__button">
+            Start free trial        </a>
+    </div>
+    <img class="app-hosting-cta__image" src="https://kinsta.com/wp-content/themes/kinsta/images/components/app-hosting-cta/foreground.svg" aria-hidden="true" loading="lazy" width="410" height="583">
+</div>
+</aside>
+<p>While SGML is meant to standardize markup, eliminate confusion, and has inspired both HTML and XML, it was descended from a language created in the 1960s. It’s ancient and thus was not designed with <a href="https://kinsta.com/blog/php-frameworks/">modern web applications</a> in mind.</p>
+<p>HTML5 has evolved to no longer conform to SGML; it instead <a href="https://www.w3.org/TR/2011/WD-html5-20110113/parsing.html" target="_blank" rel="noopener noreferrer">parses</a> with its own unique rules. While its origins are still in SGML, and HTML5 is just an extension to the existing technology, it is no longer compliant with those standards.</p>
+<p>One result of this is that error handling is much more forgiving now. One small error will no longer result in a glaring issue to viewers on your page, or a page that doesn’t load at all.</p>
+<p>Semantics, or tags, have also drastically improved. Before, structuring your page at all required constant use of <code>&lt;div&gt;</code> tags: <code>&lt;div id=“header”&gt;</code>, <code>&lt;div id=“menu”&gt;</code>, and <code>&lt;div class=“post”&gt;</code>.</p>
+<p>In HTML5, those clunky codes would be <code>&lt;header&gt;</code>,<code> &lt;nav&gt;</code>, and <code>&lt;article&gt;</code>. These tags are both cleaner and more responsive.</p>
+<p>Several <a href="https://www.w3.org/community/webed/wiki/HTML/New_HTML5_Elements" target="_blank" rel="noopener noreferrer">new tags</a> were introduced as well. Many of them were created to replace the divs and frames previously used to structure pages.</p>
+<p>Many of the old markup tags went entirely unchanged, so HTML5 is partially backward-compatible with older versions. But an untouched HTML4 document will no longer parse correctly with the new standards.</p>
+<p>While there are quite a few differences between HTML and HTML5, the changes are generally for the better and are intended to make the markup language more accessible.<br>
+</p><div data-nosnippet><kinsta-advanced-cta language="en_US" type-int-post="91142" type-int-position="2"></kinsta-advanced-cta></div>
+
+<h3>Better Performance and Mobile Support</h3>
+<p>One of HTML5’s biggest benefits is that it’s much faster and far more responsive than previous iterations. In the era of original HTML, devices other than computers accessing the Internet wasn’t even a dream yet; now, it’s all accessible from our phones, watches, and televisions, thanks in part to the speed of HTML5.</p>
+<p>The new version brought better standards to keep websites running more smoothly on smaller, less powerful devices. Many performance issues will still depend on you and the quality of your code. However, plenty of loose ends on the HTML side were tied up with the HTML5 update.</p>
+<p>For example, HTML5 supports <a href="https://www.htmlgoodies.com/html5/tutorials/introducing-html-5-web-workers-bringing-multi-threading-to-javascript.html" target="_blank" rel="noopener noreferrer">multi-threading</a> with JavaScript Web Workers, allowing your device’s processor to use more of its power to run scripts. Code that used to bog down a page will now run seamlessly.</p>
+<p>Designing responsive websites is also much easier in HTML5. HTML4 had many unresponsive elements, such as divs, replaced by structure tags that work better on mobile.</p>
+<p><a href="https://html.com/frames/" target="_blank" rel="noopener noreferrer">Frames</a> were removed as well for causing issues with usability and accessibility. While they’re still supported, they have been deprecated and should not be used unless you have reason to be working with outdated technology.</p>
+<p>While there’s no direct HTML5 replacement for frames, it’s recommended you use CSS elements such as flex boxes or iframes (which are still supported in HTML5) to replace the old functionality.</p>
+<h3>Better Form Controls</h3>
+<p>New form controls equate to a new level of control over your site. While this may seem like a small feature, it means having to rely on one less external technology to create a working form.</p>
+<figure id="attachment_91144" aria-describedby="caption-attachment-91144" style="width: 1315px" class="wp-caption alignnone"><img decoding="async" loading="lazy" class="wp-image-91144 size-full" src="https://kinsta.com/wp-content/uploads/2021/03/html5-form-example.png" alt="HTML5 form example" width="1315" height="591" srcset="https://kinsta.com/wp-content/uploads/2021/03/html5-form-example.png 1315w, https://kinsta.com/wp-content/uploads/2021/03/html5-form-example-300x135.png 300w, https://kinsta.com/wp-content/uploads/2021/03/html5-form-example-1024x460.png 1024w, https://kinsta.com/wp-content/uploads/2021/03/html5-form-example-768x345.png 768w" sizes="(max-width: 1315px) 100vw, 1315px"><figcaption id="caption-attachment-91144" class="wp-caption-text">HTML 5 form example</figcaption></figure>
+<p>Originally, HTML only supported text, password, hidden, checkbox/radio, and file upload input types. While that’s enough to make a basic input form, there’s so much more you can do with <a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types" target="_blank" rel="noopener noreferrer">HTML5 input types</a> now.</p>
+<p>New additions include email, phone number, URL, search box, slider, numeric, date and time picker, and color picker inputs.</p>
+<p>This diverse array of input types allows you to create <a href="https://kinsta.com/blog/wordpress-forms/">better forms</a> that can accept more content types, with validation included to ensure they’re correct. Check the full list of <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank" rel="noopener noreferrer">HTML inputs</a> for more information.</p>
+<h3>Web Storage</h3>
+<p>When it comes to web storage, HTML4 and below essentially support cookies and little else. Storing any information besides basic user tracking in a tiny 4 kilobytes cookie was next to impossible.</p>
+<p>On the other hand, local storage lets you store 5-10 megabytes of data depending on the browser. This allows you to save client-side info about previous sessions, offline access data, personal customizations, and more. Besides, local storage is not cleared automatically, unlike cookies.</p>
+<figure id="attachment_83734" aria-describedby="caption-attachment-83734" style="width: 2409px" class="wp-caption aligncenter"><img decoding="async" loading="lazy" class="wp-image-83734 size-full" src="https://kinsta.com/wp-content/uploads/2020/11/dark-mode-on.jpg" alt="Dark mode enabled in the Customizer and enabled on the front site" width="2409" height="1193" srcset="https://kinsta.com/wp-content/uploads/2020/11/dark-mode-on.jpg 2409w, https://kinsta.com/wp-content/uploads/2020/11/dark-mode-on-300x149.jpg 300w, https://kinsta.com/wp-content/uploads/2020/11/dark-mode-on-1024x507.jpg 1024w, https://kinsta.com/wp-content/uploads/2020/11/dark-mode-on-768x380.jpg 768w, https://kinsta.com/wp-content/uploads/2020/11/dark-mode-on-1536x761.jpg 1536w, https://kinsta.com/wp-content/uploads/2020/11/dark-mode-on-2048x1014.jpg 2048w" sizes="(max-width: 2409px) 100vw, 2409px"><figcaption id="caption-attachment-83734" class="wp-caption-text">Dark mode enabled in the WordPress Customizer</figcaption></figure>
+<p>One example of what you can do with local storage is to save a user’s preference for the light or dark theme on your site, ensuring they continue to see your site as they prefer it on their next visit. While you can also save user preferences with cookies, the browser will inevitably clear them after some time.</p>
+<p>HTML5 supports local storage through the <a href="https://www.w3schools.com/html/html5_webstorage.asp" target="_blank" rel="noopener noreferrer">Web Storage API</a>. Also, it supports <a href="https://www.tutorialspoint.com/html5/html5_web_sql.htm" target="_blank" rel="noopener noreferrer">Web SQL database</a> storage, indexed database storage, and even file access with the <a href="https://www.w3.org/TR/FileAPI/" target="_blank" rel="noopener noreferrer">File API</a>. Many of these integrate with JavaScript <a href="https://kinsta.com/blog/wordpress-http-api-part-1/">through APIs</a>. Before that, it was either extremely cumbersome to do or, in some cases, just wasn’t possible or was extremely cumbersome to do.</p>
+<h2>Which is Better: HTML or HTML5?</h2>
+<p>If you want to learn to code, you should definitely avoid using outdated standards. HTML5 is the newest version of HTML and should always be used over older versions of the language.</p>
+<p>As listed above, HTML5 improves on several aspects of HTML4 that were obsolete and difficult to work with. Besides, HTML5 can do many things natively, while HTML4 relies entirely on long-since deprecated systems like Silverlight, <a href="https://kinsta.com/blog/best-programming-language-to-learn/#java">Java</a> Web Start, and Flash.</p>
+<p>While HTML5 doesn’t always display properly on super old browsers and operating systems (such as Internet Explorer or old versions of mobile phones), these platforms are extremely outdated and rarely used anymore. There are no longer any good reasons to use outdated versions of HTML over modern standards.</p>
+<p>Unfortunately, there’s a lot of information on the Internet and in books about older versions of HTML. Whenever you look up a guide or learn from a course or book, make sure it’s talking about HTML5 and was released or updated after 2014. There’s no use in learning outdated standards from 1999.</p>
+<h2>How to Convert HTML to HTML5</h2>
+<p>If you have an older website, you need to update it. There’s sadly no real way to do a total conversion without doing any manual work.</p>
+<p>The best thing to do is read through the <a href="https://html.spec.whatwg.org/" target="_blank" rel="noopener noreferrer">HTML5 specification</a> (or take an HTML course if you’re totally new to the language) and get familiar with the changes. After that, you can rewrite the code and add the new features they added in HTML5.</p>
+<p>Check out <a href="https://www.quanzhanketang.com/html/html5_migration.html" target="_blank" rel="noopener noreferrer">this guide to migrating from HTML4 to HTML5</a>. It extensively covers the manual changes you need to make to the code.</p>
+<p>You could also try this <a href="http://mynthon.net/tools/xhtml-to-html5/" target="_blank" rel="noopener noreferrer">XHTML to HTML5 converter</a>, but make sure to go over your code manually or insert it into a validator before importing it to a live site.</p>
+<p>Luckily, HTML5 is mostly new content. There are a few <a href="https://www.tutorialspoint.com/html5/html5_deprecated_tags.htm" target="_blank" rel="noopener noreferrer">deprecated tags</a> you’ll need to replace, but besides that, upgrading the code is usually not a big endeavor unless your site relies heavily on deprecated technology like frames.</p>
+<p><span><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fkinsta.com%2Fblog%2Fhtml-vs-html5%2F&via=kinsta&text=If+you%E2%80%99re+looking+to+get+into+frontend+development+or+work+with+code+in+WordPress+%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB%2C+you+need+to+know+the+difference+between+HTML+and+HTML5...+and+this+post+has+you+covered+%F0%9F%92%AA&hashtags=WebDev%2CHTML" class="novashare-ctt novashare-ctt-cta-left" target="_blank" rel="nofollow noopener noreferrer"><span class="novashare-ctt-tweet">If you’re looking to get into frontend development or work with code in WordPress 👩‍💻, you need to know the difference between HTML and HTML5... and this post has you covered 💪</span><span class="novashare-ctt-cta-container"><span class="novashare-ctt-cta"><span class="novashare-ctt-cta-text">Click to Tweet</span><span class="novashare-ctt-cta-icon"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></span></span></span></a></span></p>
+<h2>Summary</h2>
+<p>HTML and HTML5 are just two parts of the same technology, though they mean slightly different things. HTML refers to the markup language as a whole, often to the newest version, while HTML5 is the latest update to it.</p>
+<p>If you’re looking to learn HTML, it’s important to use the latest edition: HTML5. It’s better in every way, and even if it means having to convert a lot of old code manually, it’s definitely worth the effort.</p>
+<p>HTML5 is several years old now, and as the living standard of the language as a whole, it will only continue to get updated to work with the modern web.        </p>
+<div class="user-content mt--40 pb--60">
+<hr class="mini-divider">
+<p>
+            Get all your <a data-track-ga-category="single-post" data-track-ga-label="bottom-cta" href="https://kinsta.com/application-hosting/">applications</a>, <a data-track-ga-category="single-post" data-track-ga-label="bottom-cta" href="https://kinsta.com/database-hosting/">databases</a> and <a data-track-ga-category="single-post" data-track-ga-label="bottom-cta" href="https://kinsta.com/wordpress-hosting/">WordPress sites</a> online and under one roof. Our feature-packed, high-performance cloud platform includes:</p>
+<ul>
+<li>Easy setup and management in the MyKinsta dashboard</li>
+<li>24/7 expert support</li>
+<li>The best Google Cloud Platform hardware and network, powered by Kubernetes for maximum scalability</li>
+<li>An enterprise-level Cloudflare integration for speed and security</li>
+<li>Global audience reach with up to 35 data centers and 275 PoPs worldwide</li>
+</ul>
+<p>Get started with a free trial of our <a data-track-ga-category="single-post" data-track-ga-label="bottom-cta" href="https://kinsta.com/application-hosting/">Application Hosting</a> or <a data-track-ga-category="single-post" data-track-ga-label="bottom-cta" href="https://kinsta.com/database-hosting/">Database Hosting</a>. Explore our <a data-track-ga-category="single-post" data-track-ga-label="bottom-cta" href="https://kinsta.com/plans/">plans</a> or <a data-track-ga-category="single-post" data-track-ga-label="bottom-cta" href="https://kinsta.com/contact-us/">talk to sales</a> to find your best fit.        </p>
+</div>	</div>
+</article>
+    <div class="related-posts">
+        <div class="related-posts__inner container">
+            <h2 class="related-posts__title">
+                Hand-picked related articles            </h2>
+
+            <div class="posts-grid related-posts__list">
+<div class="post-preview post-90266 post type-post status-publish format-standard has-post-thumbnail hentry tag-fonts tag-webdesign topic-wordpress-fonts topic-wordpress-website-design wl_entity_type-article">
+    <a class="post-preview__thumbnail" aria-hidden="true" href="https://kinsta.com/blog/html-fonts/">
+            <img width="360" height="180" src="https://kinsta.com/wp-content/uploads/2021/03/html-fonts-360x180.png" class="attachment-kinsta-thumbnail size-kinsta-thumbnail wp-post-image" alt="HTML fonts, featured image, illustration." decoding="async" loading="lazy" srcset="https://kinsta.com/wp-content/uploads/2021/03/html-fonts-360x180.png 360w, https://kinsta.com/wp-content/uploads/2021/03/html-fonts-300x150.png 300w, https://kinsta.com/wp-content/uploads/2021/03/html-fonts-1024x512.png 1024w, https://kinsta.com/wp-content/uploads/2021/03/html-fonts-768x384.png 768w, https://kinsta.com/wp-content/uploads/2021/03/html-fonts.png 1460w" sizes="(max-width: 360px) 100vw, 360px" />    </a>
+
+    <div class="post-preview__content">
+        <div class="post-preview__labels" aria-hidden="true">
+                    <span  class="post-preview__label has-purple-background-color" aria-hidden="true" href="">
+            Blog        </span>
+    </div>
+
+
+<div class="post-preview__title-excerpt">
+    <h2 class="post-preview__title">
+                <a class="post-preview__link" href="https://kinsta.com/blog/html-fonts/">
+            Your Complete Guide to HTML Fonts (or Web Fonts)        </a>
+    </h2>
+
+            <div class="post-preview__excerpt">
+            Getting started with HTML fonts is easy! Here, we show you how to do it and even how to style your font selections.        </div>
+    </div>
+<dl class="post-preview__meta">
+            <dt><span class="screen-reader-text">Reading time</span></dt>
+        <dd>14 min read</dd>
+            <dt><span class="screen-reader-text">Publish date</span></dt>
+        <dd>March 19, 2021</dd>
+            <dt><span class="screen-reader-text">Topic</span></dt>
+        <dd><a class="unslidelink" href="https://kinsta.com/topic/wordpress-fonts/">WordPress Fonts</a></dd>
+            <dt><span class="screen-reader-text">Topic</span></dt>
+        <dd><a class="unslidelink" href="https://kinsta.com/topic/wordpress-website-design/">WordPress Website Design</a></dd>
+    </dl>
+    </div>
+</div>
+
+<div class="post-preview post-59607 post type-post status-publish format-standard has-post-thumbnail hentry tag-html-editors tag-wordpress-developers topic-business-tools topic-wordpress-development wl_entity_type-article">
+    <a class="post-preview__thumbnail" aria-hidden="true" href="https://kinsta.com/blog/free-html-editor/">
+            <img width="360" height="180" src="https://kinsta.com/wp-content/uploads/2019/12/free-html-editor-360x180.jpg" class="attachment-kinsta-thumbnail size-kinsta-thumbnail wp-post-image" alt="free html editor" decoding="async" loading="lazy" srcset="https://kinsta.com/wp-content/uploads/2019/12/free-html-editor-360x180.jpg 360w, https://kinsta.com/wp-content/uploads/2019/12/free-html-editor-300x150.jpg 300w, https://kinsta.com/wp-content/uploads/2019/12/free-html-editor-1024x512.jpg 1024w, https://kinsta.com/wp-content/uploads/2019/12/free-html-editor-768x384.jpg 768w, https://kinsta.com/wp-content/uploads/2019/12/free-html-editor.jpg 1460w" sizes="(max-width: 360px) 100vw, 360px" />    </a>
+
+    <div class="post-preview__content">
+        <div class="post-preview__labels" aria-hidden="true">
+                    <span  class="post-preview__label has-purple-background-color" aria-hidden="true" href="">
+            Blog        </span>
+    </div>
+
+
+<div class="post-preview__title-excerpt">
+    <h2 class="post-preview__title">
+                <a class="post-preview__link" href="https://kinsta.com/blog/free-html-editor/">
+            10 Free HTML Editors on the Market for Developers and Advanced Users        </a>
+    </h2>
+
+            <div class="post-preview__excerpt">
+            Want to write HTML and code efficiently? You need a powerful code editor! Check out these free HTML editors and pick the one suited for your coding&hellip;        </div>
+    </div>
+<dl class="post-preview__meta">
+            <dt><span class="screen-reader-text">Reading time</span></dt>
+        <dd>14 min read</dd>
+            <dt><span class="screen-reader-text">Publish date</span></dt>
+        <dd>January 10, 2020</dd>
+            <dt><span class="screen-reader-text">Topic</span></dt>
+        <dd><a class="unslidelink" href="https://kinsta.com/topic/business-tools/">Business Tools</a></dd>
+            <dt><span class="screen-reader-text">Topic</span></dt>
+        <dd><a class="unslidelink" href="https://kinsta.com/topic/wordpress-development/">WordPress Development</a></dd>
+    </dl>
+    </div>
+</div>
+
+<div class="post-preview post-22323 post type-post status-publish format-standard has-post-thumbnail hentry tag-webdev tag-wordpress topic-headless-cms wl_entity_type-article">
+    <a class="post-preview__thumbnail" aria-hidden="true" href="https://kinsta.com/blog/wordpress-vs-static-html/">
+            <img width="360" height="180" src="https://kinsta.com/wp-content/uploads/2018/03/wordpress-vs-html-360x180.png" class="attachment-kinsta-thumbnail size-kinsta-thumbnail wp-post-image" alt="WordPress vs html" decoding="async" loading="lazy" srcset="https://kinsta.com/wp-content/uploads/2018/03/wordpress-vs-html-360x180.png 360w, https://kinsta.com/wp-content/uploads/2018/03/wordpress-vs-html-300x150.png 300w, https://kinsta.com/wp-content/uploads/2018/03/wordpress-vs-html-1024x512.png 1024w, https://kinsta.com/wp-content/uploads/2018/03/wordpress-vs-html-768x384.png 768w, https://kinsta.com/wp-content/uploads/2018/03/wordpress-vs-html.png 1460w" sizes="(max-width: 360px) 100vw, 360px" />    </a>
+
+    <div class="post-preview__content">
+        <div class="post-preview__labels" aria-hidden="true">
+                    <span  class="post-preview__label has-purple-background-color" aria-hidden="true" href="">
+            Blog        </span>
+    </div>
+
+
+<div class="post-preview__title-excerpt">
+    <h2 class="post-preview__title">
+                <a class="post-preview__link" href="https://kinsta.com/blog/wordpress-vs-static-html/">
+            WordPress vs Static HTML: How Should You Build Your Site?        </a>
+    </h2>
+
+            <div class="post-preview__excerpt">
+            Trying to decide between WordPress vs static HTML to build your website? In this post, we&#039;ll explain how each method works and then go over some of&hellip;        </div>
+    </div>
+<dl class="post-preview__meta">
+            <dt><span class="screen-reader-text">Reading time</span></dt>
+        <dd>14 min read</dd>
+            <dt><span class="screen-reader-text">Publish date</span></dt>
+        <dd>April 4, 2018</dd>
+            <dt><span class="screen-reader-text">Topic</span></dt>
+        <dd><a class="unslidelink" href="https://kinsta.com/topic/headless-cms/">Headless CMS</a></dd>
+    </dl>
+    </div>
+</div>
+</div>        </div>
+    </div>
+<link rel="stylesheet" href="https://kinsta.com/wp-content/themes/kinsta/dist/templates/comments.css?ver=9c113d85d4a29bed0cd3" />
+<div class="container container--narrow mt--60">
+    <div class="row">
+        <div class="pb--60 col-xs-12">
+            <div class='row'>
+                <div class='col-xs-12'>
+                    <div class='row nocol between-xs middle-xs mb--40'>
+                        <h3 class='heading--large'>
+                            Comments                        </h3>
+
+                        <div>
+                            <a href="#commentform" class='button--ghost--gray button--small'>
+                                Leave A Comment                            </a>
+                        </div>
+                    </div>
+                                            <ol class="comment-list">
+                                <li class="comment even thread-even depth-1" id="comment-560402">
+                        <div id="div-comment-560402" class="comment-body">
+                                                      <div class='row nocol xs-all-12-centered'>
+        <div class='comment-inner'>
+          <div class="comment-header mb--20">
+            <div class='comment-meta'>
+              <div class='comment-avatar avatar--round mr--10'>
+                <img alt='Gravatar for this comment&#039;s author' src='https://kinsta.com/avatar/57391fdf2c1fc2e529b522c0e10e5fb5?s=32&#038;d=mm&#038;r=g' srcset='https://kinsta.com/avatar/57391fdf2c1fc2e529b522c0e10e5fb5?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' loading='lazy' decoding='async'/>              </div>
+              <span class="comment-author text--bold pr--10">
+                <span class="comment-author__name">Kumar</span>
+                            </span>
+              <span class="comment-date">
+                March 25, 2021 at 5:41 pm              </span>
+            </div>
+            <div class="comment-reply-container">
+            <a rel='nofollow' class='comment-reply-link' href='#comment-560402' data-commentid="560402" data-postid="91142" data-belowelement="div-comment-560402" data-respondelement="respond" data-replyto="Reply to Kumar" aria-label='Reply to Kumar'>Reply</a>            </div>
+          </div>
+          <div class='comment-content'><p>Thanks Brenda. </p>
+<p>Resourceful article. How do you check if your website is HTML4 or HTML5?</p>
+</div>
+        </div>
+      </div>
+
+                </div>
+            </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="comment-562788">
+                        <div id="div-comment-562788" class="comment-body">
+                                                      <div class='row nocol xs-all-12-centered'>
+        <div class='comment-inner'>
+          <div class="comment-header mb--20">
+            <div class='comment-meta'>
+              <div class='comment-avatar avatar--round mr--10'>
+                <img alt='Gravatar for this comment&#039;s author' src='https://kinsta.com/avatar/146c9dab630094de7e90b515c22ab0cd?s=32&#038;d=mm&#038;r=g' srcset='https://kinsta.com/avatar/146c9dab630094de7e90b515c22ab0cd?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' loading='lazy' decoding='async'/>              </div>
+              <span class="comment-author text--bold pr--10">
+                <span class="comment-author__name">Daniele Barell</span>
+                            </span>
+              <span class="comment-date">
+                March 27, 2021 at 8:16 pm              </span>
+            </div>
+            <div class="comment-reply-container">
+            <a rel='nofollow' class='comment-reply-link' href='#comment-562788' data-commentid="562788" data-postid="91142" data-belowelement="div-comment-562788" data-respondelement="respond" data-replyto="Reply to Daniele Barell" aria-label='Reply to Daniele Barell'>Reply</a>            </div>
+          </div>
+          <div class='comment-content'><p>Good and complete HTML overview.<br />
+Thanks 👍</p>
+</div>
+        </div>
+      </div>
+
+                </div>
+            </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="comment-1113102">
+                        <div id="div-comment-1113102" class="comment-body">
+                                                      <div class='row nocol xs-all-12-centered'>
+        <div class='comment-inner'>
+          <div class="comment-header mb--20">
+            <div class='comment-meta'>
+              <div class='comment-avatar avatar--round mr--10'>
+                <img alt='Gravatar for this comment&#039;s author' src='https://kinsta.com/avatar/2dc950281314277310f9be97cd73c033?s=32&#038;d=mm&#038;r=g' srcset='https://kinsta.com/avatar/2dc950281314277310f9be97cd73c033?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' loading='lazy' decoding='async'/>              </div>
+              <span class="comment-author text--bold pr--10">
+                <span class="comment-author__name">Steve</span>
+                            </span>
+              <span class="comment-date">
+                January 29, 2023 at 6:10 pm              </span>
+            </div>
+            <div class="comment-reply-container">
+            <a rel='nofollow' class='comment-reply-link' href='#comment-1113102' data-commentid="1113102" data-postid="91142" data-belowelement="div-comment-1113102" data-respondelement="respond" data-replyto="Reply to Steve" aria-label='Reply to Steve'>Reply</a>            </div>
+          </div>
+          <div class='comment-content'><p>HTML 5 is dead</p>
+<p>Long Live HTML. The Web Hypertext Applications Technology Working Group (WHATWG) — the organization which instigated HTML5 — has announced they are dropping version numbers. HTML5 is complete.</p>
+<p>PS HTML 4.01 Works on all modern browsers as for videos use iframs</p>
+</div>
+        </div>
+      </div>
+
+                </div>
+            </li><!-- #comment-## -->
+                        </ol>
+
+                                            
+                    
+                    	<div id="respond" class="comment-respond">
+		<h3 class="heading--large mb--20">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/blog/html-vs-html5/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://kinsta.com/wp-comments-post.php" method="post" id="commentform" class="kinsta-form--whitebg kinsta-form" novalidate>  <div class="mt--10 text--small mb--40"><strong>Comment policy:</strong> We love comments and appreciate the time that readers spend to share ideas and give feedback. However, all comments are manually moderated and those deemed to be spam or solely promotional will be deleted.</div>
+        <p class="comment-form-comment"><label for="comment">Comment</label><textarea required="required" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p><div class="row gutter--small mt--20"><div class="col-xs-12 col-sm-6"><p class="comment-form-author"><label for="author">Name</label> <input id="author" required="required" name="author" type="text" value="" size="30" /></p></div>
+<div class="col-xs-12 col-sm-6 mb--20"><p class="comment-form-email"><label for="email">Email</label> <input id="email" required="required" name="email" type="email" value="" size="30" /></p></div></div>
+                                <div class="form-control mt--15 terms-checkbox" data-state="neutral">
+  <div class="control-container">
+          <p class="text--normal">By submitting this form: You agree to the processing of the submitted personal data in accordance with Kinsta's <a class="unslidelink--text" target="_blank" href="https://kinsta.com/legal/privacy-policy/">Privacy Policy</a>, including the transfer of data to the United States.</p>
+              <label class="checkbox-label row nocol js-marketing-optin">
+        <span class="checkbox mr--6">
+          <input name="marketing_opt_in" type="checkbox" checked />
+          <span class="indicator"></span>
+        </span>
+                  <p class="text--normal mb--0">You also agree to receive information from Kinsta related to our services, events, and promotions. You may unsubscribe at any time by following the instructions in the communications received.</p>
+              </label>
+      </div>
+</div>
+
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='91142' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="992a974682" /></p><input type="hidden" id="ak_js" name="ak_js" value="58"/><textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100" style="display: none !important;"></textarea></form>	</div><!-- #respond -->
+	                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="site-footer__marketing">
+    <div class="container">
+        <div class="site-footer__newsletter">
+            <a class="featured-g2-badges flex center-xs" href="https://www.g2.com/products/kinsta" rel="noopener noreferrer sponsored" target="_blank" style="flex-wrap: wrap; gap: 2.5%; text-decoration: none;">
+            <img style="max-width: 18%; display: block;" loading="lazy" width="99" height="118" src="https://kinsta.com/wp-content/themes/kinsta/images/g2-badges/top-100-fastest-growing-products.svg?v=w2023" alt="Top 100 fastest growing products G2 award" />
+            <img style="max-width: 18%; display: block;" loading="lazy" width="99" height="118" src="https://kinsta.com/wp-content/themes/kinsta/images/g2-badges/europe-leader.svg?v=w2023" alt="Leader Europe G2 award" />
+            <img style="max-width: 18%; display: block;" loading="lazy" width="99" height="118" src="https://kinsta.com/wp-content/themes/kinsta/images/g2-badges/users-love-us.svg?v=w2023" alt="Users love us G2 award" />
+            <img style="max-width: 18%; display: block;" loading="lazy" width="99" height="118" src="https://kinsta.com/wp-content/themes/kinsta/images/g2-badges/asia-pacific-leader.svg?v=w2023" alt="Leader Asia Pacific G2 award" />
+            <img style="max-width: 18%; display: block;" loading="lazy" width="99" height="118" src="https://kinsta.com/wp-content/themes/kinsta/images/g2-badges/leader.svg?v=w2023" alt="Leader G2 award" />
+    </a>
+            <h3>Subscribe to our Newsletter</h3>
+            <p>Get premium content from an <a href="https://kinsta.com/kinsta-reviews/">award-winning</a> cloud hosting platform.</p>
+            <a href="#newsletter" data-dialog-src="#newsletter" class="button button--ghost">Subscribe</a>
+        </div>
+        <img  class="site-footer__marketing__illustration" aria-hidden="true" src="https://kinsta.com/wp-content/themes/kinsta/images/footer/foreground.svg" width="538" height="291" loading="lazy" />
+    </div>
+</div>
+<dialog  id="newsletter" class="dialog dialog has-dark-blue-background-color email-modal" aria-hidden="true">
+    <div class="dialog__content">
+        <h2 class="heading--large text--center color--white mb--30">
+            Sign Up For the Newsletter        </h2>
+    <kinsta-form  show-name="false" show-phone="false" show-website="false" show-company="false" show-disk-space="false" show-monthly-visits="false" show-number-of-websites="false" show-message="false" submit-button-text="Sign Up Now" submit-button-text-sending="Signing Up..." success-title="Thanks for subscribing!" success-message="Keep an eye out for our next newsletter." terms-template="newsletter" hubspot-source="subscribe_to_newsletter" submit-button-text-loading="Signing Up"></kinsta-form>
+    </div>
+</dialog>
+
+    <div class="container">
+        <div class="site-footer__language-bar">
+    </div>
+<nav class="site-footer__menu"><ul id="menu-footer-menu" class="menu"><li id="menu-item-95015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95015"><h3 >Kinsta Hosting</h3>
+<ul class="sub-menu">
+	<li id="menu-item-137354" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137354"><a href="https://kinsta.com/pricing/">Pricing</a></li>
+	<li id="menu-item-136895" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136895"><a href="https://kinsta.com/application-hosting/">Application Hosting</a></li>
+	<li id="menu-item-136782" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136782"><a href="https://kinsta.com/database-hosting/">Database Hosting</a></li>
+	<li id="menu-item-107224" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-107224"><a href="https://kinsta.com/wordpress-hosting/">WordPress Hosting</a></li>
+	<li id="menu-item-95670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95670"><a href="https://kinsta.com/wordpress-hosting-agencies/">Agency Hosting</a></li>
+	<li id="menu-item-124120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124120"><a href="https://kinsta.com/single-site-plans/">Single Site Hosting</a></li>
+	<li id="menu-item-112328" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112328"><a href="https://kinsta.com/woocommerce-hosting/">WooCommerce Hosting</a></li>
+	<li id="menu-item-95023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95023"><a href="https://kinsta.com/enterprise-wordpress-hosting/">Enterprise Hosting</a></li>
+	<li id="menu-item-95041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95041"><a href="https://kinsta.com/kinsta-support/">Kinsta Support</a></li>
+	<li id="menu-item-95021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95021"><a href="https://kinsta.com/wordpress-migration/">Free Migration</a></li>
+</ul>
+</li>
+<li id="menu-item-95011" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95011"><h3 >Platform</h3>
+<ul class="sub-menu">
+	<li id="menu-item-118367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118367"><a href="https://kinsta.com/add-ons/">Add-Ons</a></li>
+	<li id="menu-item-95028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95028"><a href="https://kinsta.com/apm-tool/">APM Tool</a></li>
+	<li id="menu-item-95029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95029"><a href="https://kinsta.com/devkinsta/">DevKinsta</a></li>
+	<li id="menu-item-95024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95024"><a href="https://kinsta.com/cloudflare-integration/">Cloudflare Integration</a></li>
+	<li id="menu-item-95058" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95058"><a href="https://status.kinsta.com/">System Status</a></li>
+</ul>
+</li>
+<li id="menu-item-95012" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95012"><h3 >Resources</h3>
+<ul class="sub-menu">
+	<li id="menu-item-95030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95030"><a href="https://kinsta.com/resources/">All Resources</a></li>
+	<li id="menu-item-95034" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-95034"><a href="https://kinsta.com/blog/">Blog</a></li>
+	<li id="menu-item-95031" class="menu-item menu-item-type-post_type_archive menu-item-object-knowledgebase menu-item-95031"><a href="https://kinsta.com/knowledgebase/">Knowledge Base</a></li>
+	<li id="menu-item-109761" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-109761"><a href="https://kinsta.com/docs/">Documentation &#038; Help</a></li>
+	<li id="menu-item-95033" class="menu-item menu-item-type-post_type_archive menu-item-object-feature-updates menu-item-95033"><a href="https://kinsta.com/feature-updates/">Feature Updates</a></li>
+	<li id="menu-item-124842" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124842"><a href="https://kinsta.com/academy/">Kinsta Academy</a></li>
+	<li id="menu-item-95036" class="menu-item menu-item-type-post_type_archive menu-item-object-ebook menu-item-95036"><a href="https://kinsta.com/ebooks/">Ebooks</a></li>
+	<li id="menu-item-136781" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136781"><a href="https://kinsta.com/tools/">Development Tools</a></li>
+	<li id="menu-item-95053" class="menu-item menu-item-type-post_type_archive menu-item-object-affiliate-academy menu-item-95053"><a href="https://kinsta.com/affiliate-academy/">Affiliate Academy</a></li>
+	<li id="menu-item-102055" class="menu-item menu-item-type-post_type_archive menu-item-object-agency menu-item-102055"><a href="https://kinsta.com/agency-directory/">Agency Directory</a></li>
+</ul>
+</li>
+<li id="menu-item-95013" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95013"><h3 >Company</h3>
+<ul class="sub-menu">
+	<li id="menu-item-95043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95043"><a href="https://kinsta.com/about-us/">About Us</a></li>
+	<li id="menu-item-95046" class="menu-item menu-item-type-post_type_archive menu-item-object-job menu-item-95046"><a href="https://kinsta.com/careers/">Careers</a></li>
+	<li id="menu-item-95040" class="menu-item menu-item-type-post_type_archive menu-item-object-case_studies menu-item-95040"><a href="https://kinsta.com/clients/">Clients &#038; Case Studies</a></li>
+	<li id="menu-item-95049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95049"><a href="https://kinsta.com/contact-us/">Contact Us</a></li>
+	<li id="menu-item-95042" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95042"><a href="/kinsta-reviews/">Kinsta Reviews</a></li>
+	<li id="menu-item-95048" class="menu-item menu-item-type-post_type_archive menu-item-object-partner menu-item-95048"><a href="https://kinsta.com/partners/">Partners</a></li>
+	<li id="menu-item-95047" class="menu-item menu-item-type-post_type_archive menu-item-object-news menu-item-95047"><a href="https://kinsta.com/press/">Press</a></li>
+	<li id="menu-item-95045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95045"><a href="https://kinsta.com/why-us/">Why Us</a></li>
+	<li id="menu-item-136896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136896"><a href="https://kinsta.com/affiliates/">Affiliate Program</a></li>
+	<li id="menu-item-95055" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95055"><a href="https://affiliate.kinsta.com/?lang=en">Affiliate Dashboard</a></li>
+</ul>
+</li>
+<li id="menu-item-95014" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95014"><h3 >Compare Kinsta</h3>
+<ul class="sub-menu">
+	<li id="menu-item-97403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97403"><a href="https://kinsta.com/wp-engine-alternative/">Kinsta vs WP Engine</a></li>
+	<li id="menu-item-101280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101280"><a href="https://kinsta.com/siteground-alternative/">Kinsta vs SiteGround</a></li>
+	<li id="menu-item-97734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97734"><a href="https://kinsta.com/flywheel-hosting-alternative/">Kinsta vs Flywheel</a></li>
+	<li id="menu-item-146320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146320"><a href="https://kinsta.com/godaddy-alternative/">Kinsta vs GoDaddy</a></li>
+	<li id="menu-item-99029" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99029"><a href="/kinsta-alternatives/">More Comparisons</a></li>
+</ul>
+</li>
+</ul></nav>
+<div class="site-footer__company">
+    <div class='site-footer__logo'>
+        <svg  class="icon icon--logo" aria-hidden="true" focusable="false"><use xlink:href="https://kinsta.com/wp-content/themes/kinsta/dist/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#logo" /></svg>    </div>
+    <nav class="site-footer__social">
+        <ul>
+                                            <li>
+                    <a  class="site-footer__social__link" href="https://github.com/kinsta/" target="_blank" rel="noopener noreferrer">
+                        <svg  class="icon icon--github" aria-hidden="true" focusable="false" title="Kinsta on GitHub"><use xlink:href="https://kinsta.com/wp-content/themes/kinsta/dist/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#github" /></svg><span class="screen-reader-text">Kinsta on GitHub</span>                    </a>
+                </li>
+                                            <li>
+                    <a  class="site-footer__social__link" href="https://twitter.com/kinsta" target="_blank" rel="noopener noreferrer">
+                        <svg  class="icon icon--twitter" aria-hidden="true" focusable="false" title="Kinsta on Twitter"><use xlink:href="https://kinsta.com/wp-content/themes/kinsta/dist/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#twitter" /></svg><span class="screen-reader-text">Kinsta on Twitter</span>                    </a>
+                </li>
+                                            <li>
+                    <a  class="site-footer__social__link" href="https://www.youtube.com/kinsta" target="_blank" rel="noopener noreferrer">
+                        <svg  class="icon icon--youtube" aria-hidden="true" focusable="false" title="Kinsta on YouTube"><use xlink:href="https://kinsta.com/wp-content/themes/kinsta/dist/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#youtube" /></svg><span class="screen-reader-text">Kinsta on YouTube</span>                    </a>
+                </li>
+                                            <li>
+                    <a  class="site-footer__social__link" href="https://www.facebook.com/kinstahosting" target="_blank" rel="noopener noreferrer">
+                        <svg  class="icon icon--facebook" aria-hidden="true" focusable="false" title="Kinsta on Facebook"><use xlink:href="https://kinsta.com/wp-content/themes/kinsta/dist/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#facebook" /></svg><span class="screen-reader-text">Kinsta on Facebook</span>                    </a>
+                </li>
+                    </ul>
+    </nav>
+    <div class="site-footer__language">
+        <label class="language-select-label"><span class="screen-reader-text">Switch language</span><svg  class="icon icon--language" aria-hidden="true" focusable="false"><use xlink:href="https://kinsta.com/wp-content/themes/kinsta/dist/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#language" /></svg><select class="language-select site-footer__language__options"><option value="https://kinsta.com/de/blog/html-vs-html5/">Deutsch</option><option value="https://kinsta.com/blog/html-vs-html5/" selected='selected'>English</option><option value="https://kinsta.com/es/blog/html-vs-html5/">Español</option><option value="https://kinsta.com/fr/blog/html-vs-html5/">Français</option><option value="https://kinsta.com/it/blog/html-e-html5/">Italiano</option><option value="https://kinsta.com/nl/blog/html-vs-html5/">Nederlands</option><option value="https://kinsta.com/pt/blog/html-vs-html5/">Português</option><option value="https://kinsta.com/se/blog/html-vs-html5/">Svenska</option></select><svg  class="icon icon--chevron" aria-hidden="true" focusable="false"><use xlink:href="https://kinsta.com/wp-content/themes/kinsta/dist/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#chevron" /></svg></label>    </div>
+</div>
+
+    </div>
+
+    <div class="site-footer__legal__container">
+        <div class="container">
+            <p class="site-footer__legal">
+                <small>&copy; 2023 Kinsta Inc. All rights reserved.</small>
+                <small>Kinsta&reg; and WordPress&reg; are registered trademarks.</small>
+                <small><a href="https://kinsta.com/legal/">Legal information.</a></small>
+            </p>
+        </div>
+    </div>
+</footer>
+<script type='text/javascript' src='https://kinsta.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://kinsta.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://kinsta.com/wp-includes/js/jquery/jquery.form.min.js?ver=4.3.0' id='jquery-form-js'></script>
+<script type='text/javascript' src='https://kinsta.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://kinsta.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://kinsta.com/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://kinsta.com/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='kinsta-js-main-js-extra'>
+/* <![CDATA[ */
+var kinsta = {"ajaxurl":"https:\/\/kinsta.com\/wp-admin\/admin-ajax.php","apiUrl":"https:\/\/kinsta.com\/wp-json\/","kinstanonce":"321c9b1abc","stripe_public_key":"pk_live_r16EiSaRITiPDMKQjLeoOviT","sentry_key":null,"env":"production","chevronRight":"<svg  class=\"icon icon--chevron color--purple\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"https:\/\/kinsta.com\/wp-content\/themes\/kinsta\/dist\/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#chevron\" \/><\/svg>","chevronLeft":"<svg  class=\"icon icon--chevron color--purple icon--reverse\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"https:\/\/kinsta.com\/wp-content\/themes\/kinsta\/dist\/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#chevron\" \/><\/svg>","check_m":"<svg  class=\"icon icon--check color--purple\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"https:\/\/kinsta.com\/wp-content\/themes\/kinsta\/dist\/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f#check\" \/><\/svg>","translations":{"thanksForSubscribing":"Thanks for subscribing!","validationRequired":"Please fill out this field","validationEmail":"Please provide a valid email address","validationPassword":"Password must contain a min. of 6 characters, at least one lowercase and capital letter, and a number","validationDuplicate":"The two fields do not match","validationVatInvalidCountry":"The country code of your VAT number does not match your selected country","validationVatInvalidFormat":"The entered VAT number is invalid","validationVatInvalidVies":"The entered VAT number could not be verified by the EU VIES system","validationCard":"Your card details are incorrect","validationFreeEmail":"Email already in use"},"svg_sprite":"https:\/\/kinsta.com\/wp-content\/themes\/kinsta\/dist\/sprite.svg?v=ac9d90ffa10c9530c97288a87fc4ed1f","urls":{"api":"https:\/\/kinsta.com\/wp-json\/","ajax":"https:\/\/kinsta.com\/wp-admin\/admin-ajax.php","terms":"https:\/\/kinsta.com\/legal\/terms-service\/","privacy":"https:\/\/kinsta.com\/legal\/privacy-policy\/","home":"https:\/\/kinsta.com\/","theme":"https:\/\/kinsta.com\/wp-content\/themes\/kinsta","cookieSettings":"https:\/\/kinsta.com\/cookie-settings\/"},"contact_terms_html":"<div class=\"form-control mt--15 terms-checkbox\" data-state=\"neutral\">\n  <div class=\"control-container\">\n          <p class=\"text--normal\">By submitting this form: You agree to the processing of the submitted personal data in accordance with Kinsta's <a class=\"unslidelink--text\" target=\"_blank\" href=\"https:\/\/kinsta.com\/legal\/privacy-policy\/\">Privacy Policy<\/a>, including the transfer of data to the United States.<\/p>\n              <label class=\"checkbox-label row nocol js-marketing-optin\">\n        <span class=\"checkbox mr--6\">\n          <input name=\"marketing_opt_in\" type=\"checkbox\" checked \/>\n          <span class=\"indicator\"><\/span>\n        <\/span>\n                  <p class=\"text--normal mb--0\">You also agree to receive information from Kinsta related to our services, events, and promotions. You may unsubscribe at any time by following the instructions in the communications received.<\/p>\n              <\/label>\n      <\/div>\n<\/div>\n","maintenanceMode":"","timeFormat":"g:i a","dateFormat":"F j, Y","defaultPlan":"visits-business1","cookiesBar":{"isOpen":false},"globalBanner":{"text":"Test a deployment on our modern App Hosting. Start your free trial today.","link":"https:\/\/kinsta.com\/application-hosting\/","theme":"default","email":false,"success_message":"Success! Your request has been submitted. Click to learn more about Application and Database hosting at Kinsta. ","hash":"918e22b60bfd811d37f48695cb3bb1c1","isOpen":false}};
+var kinstaVatRates = {"AT":"0.2","BE":"0.21","BG":"0.2","HR":"0.25","CY":"0.19","CZ":"0.21","DK":"0.25","EE":"0.2","FI":"0.24","FR":"0.2","DE":"0.19","GR":"0.24","HU":"0.27","IE":"0.23","IT":"0.22","LV":"0.21","LT":"0.21","LU":"0.17","MT":"0.18","NL":"0.21","PL":"0.23","PT":"0.23","RO":"0.19","SK":"0.2","SI":"0.22","ES":"0.21","SE":"0.25","GB":"0.2"};
+var kinstaFloatingContactText = {"termsHtml":"<div class=\"form-control mt--15 terms-checkbox\" data-state=\"neutral\">\n  <div class=\"control-container\">\n          <p class=\"text--normal\">By submitting this form: You agree to the processing of the submitted personal data in accordance with Kinsta's <a class=\"unslidelink--text\" target=\"_blank\" href=\"https:\/\/kinsta.com\/legal\/privacy-policy\/\">Privacy Policy<\/a>, including the transfer of data to the United States.<\/p>\n              <label class=\"checkbox-label row nocol js-marketing-optin\">\n        <span class=\"checkbox mr--6\">\n          <input name=\"marketing_opt_in\" type=\"checkbox\" checked \/>\n          <span class=\"indicator\"><\/span>\n        <\/span>\n                  <p class=\"text--normal mb--0\">You also agree to receive information from Kinsta related to our services, events, and promotions. You may unsubscribe at any time by following the instructions in the communications received.<\/p>\n              <\/label>\n      <\/div>\n<\/div>\n"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='kinsta-js-main-js-before'>
+var singularState = {"postId":91142,"postSlug":"html-vs-html5","postType":"post","languages":["it","pt","fr","de","nl","es","se"],"currentLanguage":"en"}
+var kinstaContactFormState = {"userId":91142,"userAge":1678064955,"recentPosts":[{"title":"Switching to PHP 8.x in Four Steps - An Interview with Juliette Reinders Folmer","thumbnail":"https:\/\/kinsta.com\/wp-content\/uploads\/2023\/02\/Juliette_Reinders_Folmer_image-360x180.png","permalink":"https:\/\/kinsta.com\/blog\/switching-to-php-8\/"},{"title":"Remove Docker Images, Volumes, and Containers in Seconds","thumbnail":"https:\/\/kinsta.com\/wp-content\/uploads\/2023\/02\/docker-remove-all-images-360x180.png","permalink":"https:\/\/kinsta.com\/blog\/docker-remove-images\/"}],"nonce":"f1b86869dc","isEnabled":true,"isFloatingEnabled":false,"isContactFormPage":false}
+var siteState = {"adminAjaxUrl":"https:\/\/kinsta.com\/wp-admin\/admin-ajax.php","restBaseUrl":"https:\/\/kinsta.com\/wp-json\/kinsta\/v1","restNonce":"f1b86869dc","siteEnv":"production"}
+</script>
+<script type='text/javascript' src='https://kinsta.com/wp-content/themes/kinsta/dist/main.js?ver=4673d6aa201b339ac4d8' id='kinsta-js-main-js'></script>
+<script type='text/javascript' id='wordlift-js-extra'>
+/* <![CDATA[ */
+var wlSettings = {"ajaxUrl":"https:\/\/kinsta.com\/wp-admin\/admin-ajax.php","apiUrl":"https:\/\/kinsta.com\/wl-api\/","jsonld_url":"https:\/\/kinsta.com\/wp-json\/wordlift\/v1\/jsonld\/","postId":"91142","jsonld_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://kinsta.com/wp-content/plugins/wordlift/js/dist/bundle.js?ver=3.40.2' id='wordlift-js'></script>
+<script type='text/javascript' id='wordlift-cloud-js-extra'>
+/* <![CDATA[ */
+var _wlCloudSettings = {"selector":"a.wl-entity-page-link","url":"https:\/\/kinsta.com\/wp-json\/wordlift\/v1\/jsonld"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer="defer" src='https://kinsta.com/wp-content/plugins/wordlift/js/dist/wordlift-cloud.js?ver=3.40.2' id='wordlift-cloud-js'></script>
+<script type='text/javascript' src='https://kinsta.com/wp-content/plugins/novashare/inc/../js/novashare.min.js?ver=1.2.1' id='novashare-js-js'></script>
+<script defer type='text/javascript' src='https://kinsta.com/wp-content/plugins/akismet/_inc/form.js?ver=4.1.12' id='akismet-form-js'></script>
+</body>
+</html>
