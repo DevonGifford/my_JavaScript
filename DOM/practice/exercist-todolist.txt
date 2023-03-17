@@ -1,0 +1,42 @@
+Exercise: DOM Events
+
+---------------------------------------------------------------------------------------------------------
+Shopping list homework
+---------------------------------------------------------------------------------------------------------
+
+1. If you click on the list item, it toggles the .done  class on and off.
+
+
+2. Add buttons next to each list item to delete the item when clicked on its corresponding delete button.
+
+
+3. BONUS: When adding a new list item, it automatically adds the delete button next to it 
+(hint: be sure to check if new items are clickable too!)
+
+Good Luck!
+
+Please note that: 
+
+In the browser most code is event driven and writing interactive applications in JavaScript is often about waiting 
+for and reacting to events, to alter the behaviour of the browser in some way. Events occur whenever something 
+happens on a page based on user interaction. These are all defined by w3c.
+
+To react to an event you listen for it and supply a function which will be called by the browser when the event 
+occurs. This function is known as a callback. To read more, check out this link:
+ https://blog.codeanalogies.com/2016/04/11/javascript-callbacks-explained-using-minions/
+
+
+---------------------------------------------------------------------------------------------------------
+Gradient selector homework
+---------------------------------------------------------------------------------------------------------
+
+ A few things you can try:
+
+1. Write code so that the colour inputs match the background generated on the first page load. 
+
+2. Display the initial CSS linear gradient property on page load.
+
+3. BONUS: Add a random button which generates two random numbers for the colour inputs.
+
+You may also see different behaviours with the Color widget based on what browser you use. 
+Remember, all browsers are implemented differently. Good luck!
