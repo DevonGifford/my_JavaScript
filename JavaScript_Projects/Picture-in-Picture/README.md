@@ -1,4 +1,4 @@
-# Picture in Picture
+# Picture in Picture - in progress...
 
 This is an app that will allow you to open any screen, application, or tab in a movable, resizable, window that will stay on top of anything you do. 
 
