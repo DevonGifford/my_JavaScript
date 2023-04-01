@@ -4,7 +4,10 @@ This project was for me to learn how to create a website that will continously l
 
 ## Thoughts
 
-This is a pretty useful skill to learn I think. A lot of websites today use infinite scrolling, or lazy loading, to constantly show new items / elements to a user. This eliminates the need for pagination and can make browsing easier.
+This is a pretty useful skill to learn I think. A lot of websites today use infinite scrolling, or lazy loading, to constantly show new items / elements to a user. 
+This eliminates the need for pagination and can make browsing easier.
+
+A lot more could be dont to this page however this is purely an example of implementing infinite scrolling. 
 
 ## Live Version
 
